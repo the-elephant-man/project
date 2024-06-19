@@ -7,7 +7,7 @@
 
 :root {
   --dark-grey: #4d4d4d;
-  --white: #ededed;
+  --white: #ffffff;
 }
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 body {
@@ -212,17 +212,17 @@ background-position:30% 10%;
   
 .img-separator.two {
 
-background: #ffffff url('/images/separator-2.jpg') center center/cover no-repeat;
+background: #ffffff url('../images/separator-2.jpg') center center/cover no-repeat;
 background-position:0% 30%;
 } 
 
 .img-separator.three {
-background: #ffffff url('/images/separator-3.jpg') center center/cover no-repeat;
+background: #ffffff url('../images/separator-3.jpg') center center/cover no-repeat;
 background-position:0% 0%;
 } 
 
 .img-separator.four {
-background: #ffffff url('/images/separator-4.jpg') center center/cover no-repeat;
+background: #ffffff url('../images/separator-4.jpg') center center/cover no-repeat;
 background-position:0% 50%;
 } 
 
@@ -322,7 +322,7 @@ hr:not([size]) {
 }
 
 .grey-section {
-    background-color: #acacac;
+    background-color: #cacaca;
     padding: 30px 0 30px 0;
   }
 
