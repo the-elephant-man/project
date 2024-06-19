@@ -205,7 +205,7 @@ h2 span {
   
 .img-separator.one {
 
-background: #ffffff url('/images/separator-1.jpg') center center/cover no-repeat;
+background: #ffffff url('../images/separator-1.jpg') center center/cover no-repeat;
 background-position:30% 10%;
 } 
 
