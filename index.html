@@ -8,6 +8,8 @@
 <!doctype html>
 <html lang="en">
 
+
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -192,7 +194,7 @@
 
 				<div class="col-12 col-sm-6 col-md-4 mb-5">
 					<div class="post-entry">
-						<a href="#" class="post-thumbnail"><img src="images/items/play.png" alt="Image" class="img-fluid"></a>
+						<a class="post-thumbnail"><img src="images/items/play.png" alt="Image" class="img-fluid"></a>
 						<div class="post-content-entry">
 							<h3>"The Elephant Man"</h3>
 							<div class="meta">
@@ -203,7 +205,7 @@
 									and friend of the
 									protagonist.
 								</span>
-								<a href="shop.html" class="btn">See more</a>
+								<a href="https://search.worldcat.org/it/title/7429056" target="_blank" class="btn">See more</a>
 							</div>
 						</div>
 					</div>
@@ -403,6 +405,88 @@
 				nec
 				ullamcorper sit. A cras semper auctor neque.</p>
 
+			<nav>
+				<div class="nav nav-tabs" id="nav-tab" role="tablist">
+					<button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#model"
+						type="button" role="tab" aria-controls="nav-home" aria-selected="true">Model</button>
+					<button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#item-2" type="button"
+						role="tab" aria-controls="nav-profile" aria-selected="false">Item 2</button>
+					<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#item-3" type="button"
+						role="tab" aria-controls="nav-contact" aria-selected="false">Items 3</button>
+					<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+						type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Items 4</button>
+					<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+						type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Items 5</button>
+					<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+						type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Items 6</button>
+					<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+						type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Items 7</button>
+					<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+						type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Items 8</button>
+					<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+						type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Items 9</button>
+					<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+						type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Items 10</button>
+
+
+				</div>
+			</nav>
+			<div class="tab-content" id="nav-tabContent">
+				<div class="tab-pane fade show active" id="model" role="tabpanel" aria-labelledby="nav-home-tab"
+					tabindex="0">
+					<table id="data-table">
+						<thead>
+							<tr>
+								<th>Subject</th>
+								<th>Property</th>
+								<th>Object</th>
+							</tr>
+						</thead>
+						<tbody>
+							<!-- Data rows will be appended here -->
+						</tbody>
+					</table>
+				</div>
+				<div class="tab-pane fade" id="item-2" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+					<table id="data-table">
+						<thead>
+							<tr>
+								<th>Subject</th>
+								<th>Property</th>
+								<th>Object</th>
+							</tr>
+						</thead>
+						<tbody>
+							<!-- Data rows will be appended here -->
+						</tbody>
+					</table>
+				</div>
+				<div class="tab-pane fade" id="item-3" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+					Item 3</div>
+				<div class="tab-pane fade show " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+					Item 4
+				</div>
+				<div class="tab-pane fade show " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+					Item 5
+				</div>
+				<div class="tab-pane fade show " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+					Item 6
+				</div>
+				<div class="tab-pane fade show " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+					Item 7
+				</div>
+				<div class="tab-pane fade show " id="nav-home" role="tabpanel" scriptabelledby="nav-home-tab" tabindex="0">
+					Item 8
+				</div>
+				<div class="tab-pane fade show " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+					Item 9
+				</div>
+				<div class="tab-pane fade show " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+					Item 10
+				</div>
+
+			</div>
+
 
 		</div>
 	</div>
@@ -456,10 +540,38 @@
 		</div>
 	</footer>
 	<!-- End Footer Section -->
+	<script src="js/d3.v7.min.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		async function fetchData() {
+			try {
+				const data = await d3.csv("items-csv/Model.csv");
+				console.log(data); // This will log the array to the console
 
+				// Function to create the table
+				function createTable(data) {
+					// Select the table body
+					const tbody = d3.select("#data-table tbody");
 
+					// Append a row for each data entry
+					data.forEach(item => {
+						const row = tbody.append("tr");
+						row.append("td").text(item.Subject);
+						row.append("td").text(item.Property);
+						row.append("td").text(item.Object);
+					});
+				}
+
+				// Call the function to create the table with the fetched data
+				createTable(data);
+			} catch (error) {
+				console.error('Error:', error);
+			}
+		}
+
+		// Call the async function to fetch the data
+		fetchData();
+	</script>
 	<script src="js/bootstrap.bundle.min.js"></script>
-	<script src="js/tiny-slider.js"></script>
 	<script src="js/custom.js"></script>
 </body>
 
