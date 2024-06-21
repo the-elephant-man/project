@@ -1,0 +1,16 @@
+Table 1
+Subject;Predicate;Object
+The Elephant Man Screenplay;df:type;Screenplay
+The Elephant Man Screenplay;dcterms:publisher;Samuel French
+The Elephant Man Screenplay;dcterms:creator;Bernard Pomerance
+The Elephant Man Screenplay;schema:datePublished;1979
+The Elephant Man Screenplay;schema:genre;Biographical Drama
+The Elephant Man Screenplay;dcterms:title;The Elephant Man
+The Elephant Man Screenplay;schema:identifier;ISBN:9780573608742
+The Elephant Man Screenplay;schema:character;Frederick Treves
+The Elephant Man Screenplay;dcterms:language;English
+The Elephant Man Screenplay;dcterms:subject;Joseph Merrick
+The Elephant Man Screenplay;schema:contentLocation;London
+The Elephant Man Screenplay;schema:character;Madge Kendal
+The Elephant Man Screenplay;schema:temporalCoverage;Victorian Era
+The Elephant Man Screenplay;dbpedia-owl:basedOn;The Elephant Man and other reminiscences
