@@ -1,6 +1,6 @@
-Table 1
 Subject;Predicate;Object
 The Elephant Man Screenplay;df:type;Screenplay
+The Elephant Man Screenplay;owl:sameAs;http://viaf.org/viaf/176820564
 The Elephant Man Screenplay;dcterms:publisher;Samuel French
 The Elephant Man Screenplay;dcterms:creator;Bernard Pomerance
 The Elephant Man Screenplay;schema:datePublished;1979
@@ -14,3 +14,9 @@ The Elephant Man Screenplay;schema:contentLocation;London
 The Elephant Man Screenplay;schema:character;Madge Kendal
 The Elephant Man Screenplay;schema:temporalCoverage;Victorian Era
 The Elephant Man Screenplay;dbpedia-owl:basedOn;The Elephant Man and other reminiscences
+Bernard Pomerance;rdf:type;foaf:Person
+Bernard Pomerance;owl:sameAs;http://viaf.org/viaf/299041559
+Samuel French;rdf:type;schema:Organization
+Samuel French;owl:sameAs;http://viaf.org/viaf/315661188
+Biographical Drama;rdf:type;dbpedia-owl:Genre
+Biographical Drama;skos:broader;Drama

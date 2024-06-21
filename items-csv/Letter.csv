@@ -8,3 +8,5 @@ Letter;dcterms:rightsHolder;Royal London Hospital Museum
 Letter;dcterms:creator;Joseph Merrick
 Letter;dcterms:language;English
 Letter;schema:locationCreated;The Royal London Hospital
+The Record Office for Leicestershire, Leicester and Rutland;rdf:type;schema:ArchiveOrganization
+schema:ArchiveOrganization;sos:broader;schema:Organization
