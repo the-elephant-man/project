@@ -1,5 +1,5 @@
 Subject;Predicate;Object
-Letter;rdf:type;Letter
+Letter;rdf:type;item/letter
 Letter;schema:recipient;Miss Leila Maturin
 Letter;dcterms:rightsHolder;The Record Office for Leicestershire, Leicester and Rutland
 Letter;schema:dateCreated;October 1889
