@@ -3,7 +3,7 @@ item/Song;dcterms:subject;person/Joseph_Merrick;
 item/Song;dcterms:language;language/english;
 item/Song;dcterms:creator;person/Mastodon;
 item/Song;dcterms:title;Leviathan;
-item/Song;rdf:type;item/song;
+item/Song;rdf:type;fabio:Song;
 item/Song;dcterms:title;Joseph Merrick;
 item/Song;schema:datePublished;2004;
 item/Song;mo:producer;person/Matt_Bayles;
