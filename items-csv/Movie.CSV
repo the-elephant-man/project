@@ -1,0 +1,17 @@
+SUBJECT;PREDICATE;OBJECT
+item/Movie;schema:actor;person/John_Hurt
+item/Movie;schema:actor;person/Anne_Bancroft 
+item/Movie;schema:actor;person/Anthony_Hopkins
+item/Movie;dcterms:creator;person/David_Lynch
+item/Movie;dcterms:publisher;organization/Brooks_Film
+item/Movie;schema:countryOfOrigin;place/United_States_of_America
+item/Movie;schema:datePublished;3 Oct 1988
+item/Movie;schema:genre;concept/genre/Drama
+item/Movie;schema:genre;concept/genre/Biographical
+item/Movie;crm:P62 depicts;item/Model
+item/Movie;schema:contentLocation;place/London
+item/Movie;dcterms:subject;person/Joseph_Merrick
+item/Movie;dcterms:language;language/English
+item/Movie;dcterms:Title;The Elephant man
+item/Movie;schema:temporalCoverage;time/Victorian_Era
+item/Movie;owl:sameAs;Q272860
