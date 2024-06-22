@@ -2,9 +2,9 @@ Subject;Property;Object
 item/Model;rdf:type;fabio:Model
 item/Model;dcterms:creator;person/Joseph_Merrick
 item/Model;schema:dateCreated;1886
-item/Model;schema:material;pre-printed card
+item/Model;schema:material;"pre-printed card"
 item/Model;fabio:has date received;1917
-item/Model;dc:terms;German model of Mainz cathedral
+item/Model;dc:terms;"German model of Mainz cathedral"
 item/Model;schema:locationCreated;place/The_Royal_London_Hospital
 item/Model;dcterms:rightsHolder;place/Royal_London_Hospital_Museum
 item/Model;frapo:is donated by;person/Madge_Kendal
