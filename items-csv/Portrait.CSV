@@ -1,0 +1,10 @@
+subject;predicate;object
+item/Portrait;schema:dateCreated;1889
+item/Portrait;dcterms:title;"Carte de visite portrait 
+photograph of Joseph Merrick"
+item/Portrait;dcterms:creator ;person/Unknown
+item/Portrait;dcterms:rightsHolder;organization/Royal_London_Hospital_Museum
+item/Portrait;dcterms:subject;person/Joseph_Merrick
+item/Portrait;rdf:type;item/Portrait
+item/Portrait;skos:broader;crm:E36_Visual_Item
+item/Portrait;owl:sameAs;wd:Q215762
