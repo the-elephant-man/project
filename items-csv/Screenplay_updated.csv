@@ -1,5 +1,5 @@
 Subject;Predicate;Object
-item/Screenplay;df:type;fabio:screenplay
+item/Screenplay;rdf:type;fabio:screenplay
 item/Screenplay;owl:sameAs;http://viaf.org/viaf/176820564
 item/Screenplay;dcterms:publisher;person/Samuel _French
 item/Screenplay;dcterms:creator;person/Bernard_Pomerance
