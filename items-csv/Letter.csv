@@ -1,7 +1,7 @@
 Subject;Predicate;Object
 Letter;rdf:type;Letter
 Letter;schema:recipient;Miss Leila Maturin
-Letter;schema:holdingArchive;The Record Office for Leicestershire, Leicester and Rutland
+Letter;dcterms:rightsHolder;The Record Office for Leicestershire, Leicester and Rutland
 Letter;schema:dateCreated;October 1889
 Letter;dcterms:title;Letter from Joseph [Carey] Merrick, London Hospital, Whitechapel to Miss L[eila] Maturin, Sunderland House, Islay, N[orth] B[ritain]
 Letter;dcterms:rightsHolder;Royal London Hospital Museum
