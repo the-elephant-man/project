@@ -4,6 +4,6 @@ item/Portrait;dcterms:title;"Carte de visite portrait photograph of Joseph Merri
 item/Portrait;dcterms:creator;person/Unknown
 item/Portrait;dcterms:rightsHolder;organization/Royal_London_Hospital_Museum
 item/Portrait;dcterms:subject;person/Joseph_Merrick
-item/Portrait;rdf:type;item/Portrait
+item/Portrait;rdf:type;crm:E36_Visual_Item
 item/Portrait;skos:broader;crm:E36_Visual_Item
 item/Portrait;owl:sameAs;wd:Q215762
