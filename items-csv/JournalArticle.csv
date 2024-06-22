@@ -1,5 +1,5 @@
 Subject;Predicate;Object
-item/Journal_Article;rdf:type;item/Journal_Article
+item/Journal_Article;rdf:type;fabio:JournalArticle
 item/Journal_Article;dcterms:subject;Proteus syndrome
 item/Journal_Article;dcterms:subject;person/Joseph_Merrick
 item/Journal_Article;schema:identifier;10.1136/bmj.293.6548.683
@@ -9,6 +9,6 @@ item/Journal_Article;schema:genre;concept/genre/Biography
 item/Journal_Article;dcterms:creator;person/M_M_Cohen
 item/Journal_Article;dcterms:creator;person/J_A_Tibbles
 item/Journal_Article;dcterms:isPartOf;organization/British_medical_journal
-item/Journal_Article;fabio:has place of publication;place/England
+item/Journal_Article;fabio:hasPlaceOfPublication;place/England
 item/Journal_Article;dcterms:language;language/English
 item/Journal_Article;owl:sameAs;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1341524/

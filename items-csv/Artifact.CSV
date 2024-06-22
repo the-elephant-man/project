@@ -7,8 +7,4 @@ item/Artifact;dcterms:rightsHolder;organization/Royal London Hospital Museum
 item/Artifact;dcterms:provenance;person/Joseph Merrick
 item/Artifact;rdf:type;item/Artifact
 item/Artifact;skos:broader;crm:E24_Physical_Human-Made_Thing
-;;
-;;
-;;
-;;
-;;
+
