@@ -2,7 +2,7 @@ SUBJECT;PREDICATE;OBJECT
 item/Hospital;dcterms:isPartOf;organization/National_Health_Service
 item/Hospital;rdf:type;schema:Hospital
 item/Hospital;schema:dateCreated;1740
-item/Hospital;schema:containedInPlace;place/London 
+item/Hospital;schema:containedInPlace;place/London
 item/Hospital;skos:broader;organization/National_Health_Service
 item/Hospital;owl:sameAs;wd:Q7374421
 item/Hospital;skos:narrower;organization/Royal-London-Hospital-Museum
