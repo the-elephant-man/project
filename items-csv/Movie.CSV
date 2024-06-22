@@ -12,6 +12,6 @@ item/Movie;crm:P62 depicts;item/Model
 item/Movie;schema:contentLocation;place/London
 item/Movie;dcterms:subject;person/Joseph_Merrick
 item/Movie;dcterms:language;language/English
-item/Movie;dcterms:Title;The Elephant man
+item/Movie;dcterms:title;The Elephant man
 item/Movie;schema:temporalCoverage;time/Victorian_Era
 item/Movie;owl:sameAs;wd:Q272860
