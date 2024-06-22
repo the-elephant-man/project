@@ -10,3 +10,4 @@ item/Book;crm:P62 depicts;green velvet flat cap
 item/Book;schema:character ;person/Tom_Norman
 item/Book;rdcterms:creator ;person/Frederick_Treves
 item/Book;fabio:has place of publication;place/London 
+item/Book;owl:sameAs;wd:Q65988906
