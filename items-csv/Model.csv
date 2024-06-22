@@ -1,5 +1,5 @@
 Subject;Property;Object
-item/Model;df:type;fabio:Model
+item/Model;rdf:type;fabio:Model
 item/Model;dcterms:creator;person/Joseph_Merrick
 item/Model;schema:dateCreated;1886
 item/Model;schema:material;pre-printed card
