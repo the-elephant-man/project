@@ -1,10 +1,10 @@
 SUBJECT;PREDICATE;OBJECT
 item/Person;gvp:ulan2550_friend_of;item/Person
-item/Person;schema:residence ;item/Hospital
+item/Person;schema:residence;item/Hospital
 item/Person;dbpedia-owl:exhibition;place/Penny_Gaff
 item/Person;schema:birthDate;05/08/1862
 item/Person;schema:deathDate;11/04/1890
 item/Person;dcterms:temporal;time/Victorian_Era
 item/Person;schema:residence ;place/London
 item/Person;rdf:type;foaf:Person
-item/Person;owl:sameAs;viaf 62352264
+item/Person;owl:sameAs;viaf:62352264
