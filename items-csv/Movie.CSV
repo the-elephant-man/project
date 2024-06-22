@@ -1,4 +1,5 @@
 SUBJECT;PREDICATE;OBJECT
+item/Movie;rdf:type;Schema:Movie
 item/Movie;schema:actor;person/John_Hurt
 item/Movie;schema:actor;person/Anne_Bancroft 
 item/Movie;schema:actor;person/Anthony_Hopkins
