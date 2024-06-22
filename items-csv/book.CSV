@@ -3,11 +3,11 @@ item/Book;dcterms:subject;person/Joseph_Merrick
 item/Book;dcterms:language;language/english
 item/Book;schema:character;person/Miss_Leila_Maturin
 item/Book;rdf:type;item/Book
-item/Book;dcterms:title ;The elephant man and other reminiscences
-item/Book;dcterms:publisher ;person/Cassell&Co
+item/Book;dcterms:title;The elephant man and other reminiscences
+item/Book;dcterms:publisher;person/Cassell&Co
 item/Book;schema:datePublished;February 1923
 item/Book;crm:P62 depicts;green velvet flat cap
-item/Book;schema:character ;person/Tom_Norman
-item/Book;rdcterms:creator ;person/Frederick_Treves
+item/Book;schema:character;person/Tom_Norman
+item/Book;rdcterms:creator;person/Frederick_Treves
 item/Book;fabio:has place of publication;place/London 
 item/Book;owl:sameAs;wd:Q65988906
