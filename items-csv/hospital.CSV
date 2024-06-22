@@ -3,3 +3,4 @@ item/Hospital;dcterms:isPartOf;organization/National_Health_Service
 item/Hospital;rdf:type;item/Hospital
 item/Hospital;schema:dateCreated ;1740
 item/Hospital;schema:containedInPlace;place/London 
+item/Hospital;skos:broader;organization/National_Health_Service
