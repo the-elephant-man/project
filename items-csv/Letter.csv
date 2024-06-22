@@ -1,5 +1,5 @@
 Subject;Predicate;Object
-item/Letter;rdf:type;item/Letter
+item/Letter;rdf:type;fabio:Letter
 item/Letter;schema:recipient;person/Miss_Leila_Maturin
 item/Letter;dcterms:rightsHolder;organization/The_Record_Office
 item/Letter;schema:dateCreated;October 1889
