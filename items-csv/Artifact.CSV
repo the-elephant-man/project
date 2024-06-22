@@ -1,7 +1,6 @@
 subject;predicate;object
 item/Artifact;dcterms:title;Green velvet flat cap
-item/Artifact;schema:material;"Grey fabric veil, small 
-triangular shaped, a nylon thread "
+item/Artifact;schema:material;"Grey fabric veil, small triangular shaped, a nylon thread"
 item/Artifact;schema:dateCreated;1880s
 item/Artifact;dcterms:rightsHolder;organization/Royal London Hospital Museum
 item/Artifact;dcterms:provenance;person/Joseph Merrick
