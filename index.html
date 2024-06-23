@@ -441,6 +441,9 @@
 		</div>
 	</div>
 	<div class="img-separator two"></div>
+
+	<!-- Metadata -->
+
 	<div class="grey-section">
 
 		<div class="container">
@@ -451,6 +454,103 @@
 				aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae aliquet
 				nec
 				ullamcorper sit. A cras semper auctor neque.</p>
+			<table class="table table-striped">
+				<tr>
+					<th>Item Name</th>
+					<th>Object Type</th>
+					<th>Provider</th>
+
+					<th>Metadata Standard used by the provider</th>
+					<th>Metadata Standard </th>
+				</tr>
+				<tr>
+					<td>The elephant man: a drama</td>
+					<td>Screenplay</td>
+					<td>Worldcat </td>
+
+					<td>MARC 21</td>
+					<td>MARC 21</td>
+				</tr>
+				<tr>
+					<td>Joseph Merrick</td>
+					<td>Song </td>
+					<td>MusicBrainz</td>
+
+					<td>XML(MMD)</td>
+					<td>XML(MMD)</td>
+				</tr>
+				<tr>
+					<td>Letter from Joseph Merrick to Miss Leila Maturin</td>
+					<td>Letter</td>
+					<td>The Record Office for Leicestershire, Leicester and Rutland
+					</td>
+
+					<td>/</td>
+					<td>Dublin Core
+					</td>
+				</tr>
+				<tr>
+					<td>The Proteus syndrome: the Elephant Man diagnosed</td>
+					<td>Scientific Article</td>
+					<td>National Library of Medicine </td>
+
+					<td>MEDLINE/PubMed</td>
+					<td>MEDLINE/PubMed</td>
+				</tr>
+				<tr>
+					<td>Model of Mainz cathedral</td>
+					<td>Model</td>
+					<td>Barts Health Archives
+					</td>
+
+					<td>ISAD(G)</td>
+					<td>ISAD(G)
+
+					</td>
+				</tr>
+				<tr>
+					<td>Green velvet flat cap</td>
+					<td>Hat</td>
+					<td>Barts Health Archives</td>
+
+					<td>ISAD(G)</td>
+					<td>ISAD(G)</td>
+				</tr>
+				<tr>
+					<td>Carte da Visite Portrait photograph of Joseph Merrick</td>
+					<td>Photograph </td>
+					<td>Barts Health Archives</td>
+
+					<td>ISAD(G)</td>
+					<td>ISAD(G)</td>
+				</tr>
+				<tr>
+					<td>The Elephant Man and other reminiscences</td>
+					<td>Book </td>
+					<td>Internet Archive</td>
+
+					<td>MARC21</td>
+					<td>MARC21</td>
+				</tr>
+				<tr>
+					<td>The Royal London Hospital</td>
+					<td>Place </td>
+					<td>Library of Congress (LCNAF)</td>
+
+					<td>MADS/RDF
+					</td>
+					<td>MADS/RDF
+					</td>
+				</tr>
+				<tr>
+					<td>The Elephant Man</td>
+					<td>Movie</td>
+					<td>AFI (American Film Insititute)</td>
+
+					<td>CWS</td>
+					<td>CWS</td>
+				</tr>
+			</table>
 
 			<h3>Metadata</h3>
 			<h2 class="section-title" id="idea">Metadata Alignment</h2>
@@ -459,6 +559,355 @@
 				aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae aliquet
 				nec
 				ullamcorper sit. A cras semper auctor neque.</p>
+			<div class="center">
+				<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+					<li class="nav-item" role="presentation">
+						<button class="btn active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#who"
+							type="button" role="tab" aria-controls="pills-home" aria-selected="true">Who</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#where" type="button"
+							role="tab" aria-controls="pills-profile" aria-selected="false">Where</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="btn" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#when" type="button"
+							role="tab" aria-controls="pills-contact" aria-selected="false">When</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="btn" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#what" type="button"
+							role="tab" aria-controls="pills-disabled" aria-selected="false">What</button>
+					</li>
+				</ul>
+			</div>
+			<div class="tab-content" id="pills-tabContent">
+				<div class="tab-pane fade show active" id="who" role="tabpanel" aria-labelledby="pills-home-tab"
+					tabindex="0">
+					<table class="table table-striped">
+						<tr>
+							<th>Property</th>
+							<th>DCTerms</th>
+							<th>MARC 21</th>
+							<th>XML(MMD)</th>
+							<th>ISAD(G)
+							</th>
+							<th>CWS</th>
+							<th>MADS/RDF</th>
+							<th>MEDLINE/PubMed</th>
+						</tr>
+						<tr>
+							<td>has actor
+							</td>
+							<td>contributor</td>
+							<td>N/A</td>
+							<td>N/A</td>
+							<td>Scope and content (CONTENT AND STRUCTURE AREA)</td>
+							<td>Cast</td>
+							<td>N/A</td>
+							<td>N/A</td>
+						</tr>
+						<tr>
+							<td>has production company
+							</td>
+							<td>publisher</td>
+							<td>N/A</td>
+							<td>Label </td>
+							<td>Administrative/Biographical history (CONTEXT AREA)
+								Scope and content (CONTENT AND STRUCTURE AREA)</td>
+							<td>Credits</td>
+							<td>CorporateName</td>
+							<td>N/A</td>
+						</tr>
+						<tr>
+							<td>has author</td>
+							<td>creator</td>
+							<td>100 $a</td>
+							<td>Artist, Name</td>
+							<td>Name of creator(s) (CONTEXT AREA)</td>
+							<td>Credits</td>
+							<td>Personal Name Type</td>
+							<td>Author (AU) </td>
+						</tr>
+						<tr>
+							<td>has producer</td>
+							<td>publisher</td>
+							<td>N/A</td>
+							<td>Label</td>
+							<td>Administrative/Biographical history (CONTEXT AREA)
+								Scope and content (CONTENT AND STRUCTURE AREA)</td>
+							<td>Credits</td>
+							<td>N/A</td>
+							<td>N/A</td>
+						</tr>
+						<tr>
+							<td>has recipient</td>
+							<td>N/A</td>
+							<td>N/A</td>
+							<td>N/A</td>
+							<td>Administrative/Biographical history
+								(CONTEXT AREA)
+								Scope and content (CONTENT AND STRUCTURE AREA)</td>
+							<td>N/A</td>
+							<td>N/A</td>
+							<td>N/A</td>
+						</tr>
+						<tr>
+							<td>has publisher </td>
+							<td>publisher</td>
+							<td>260 $b</td>
+							<td>Label</td>
+							<td>Administrative/Biographical history (CONTEXT AREA)
+							</td>
+							<td>Credtis</td>
+							<td>CorporateName</td>
+							<td>N/A</td>
+						</tr>
+						<tr>
+							<td>belonged to</td>
+							<td>provenance</td>
+							<td>N/A</td>
+							<td>N/A</td>
+							<td>Administrative/Biographical history (CONTEXT AREA)
+								Immediate source of acquisition or transfer (CONTEXT AREA)
+								Scope and content (CONTENT AND STRUCTURE AREA)</td>
+							<td>N/A</td>
+							<td>N/A</td>
+							<td>N/A</td>
+						</tr>
+					</table>
+				</div>
+				<div class="tab-pane fade" id="where" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+					<table class="table table-striped">
+						<tr>
+							<th>Property</th>
+							<th>DCTerms</th>
+							<th>MARC 21</th>
+							<th>XML(MMD)</th>
+							<th>ISAD(G)
+							</th>
+							<th>CWS</th>
+							<th>MADS/RDF</th>
+							<th>MEDLINE/PubMed</th>
+						</tr>
+						<tr>
+							<td>has place of publication </td>
+							<td>Coverage.spatial</td>
+							<td>264 $a</td>
+							<td>Area, City</td>
+							<td>Immediate source of acquisition or transfer (CONTEXT AREA)
+								Scope and content (CONTENT AND STRUCTURE AREA)</td>
+							<td>Country of Reference</td>
+							<td>City Type,
+								Country</td>
+							<td>Place of Publication (PL)</td>
+						</tr>
+						<tr>
+							<td>held at</td>
+							<td>coverage.spatial </td>
+							<td>852 $a</td>
+							<td>Place, Educational Institution</td>
+							<td>Existence and location of originals (ALLIED MATERIALS AREA)</td>
+							<td>N/A</td>
+							<td>Associated Locale
+							</td>
+							<td>N/A</td>
+						</tr>
+						<tr>
+							<td>has location </td>
+							<td>Coverage.spatial</td>
+							<td>N/A</td>
+							<td>Area, City</td>
+							<td>Existence and location of originals (ALLIED MATERIALS AREA)</td>
+							<td>N/A</td>
+							<td>City Type,
+								Country</td>
+							<td>N/A</td>
+						</tr>
+						<tr>
+							<td>was created at</td>
+							<td>Coverage.spatial</td>
+							<td>260 $e</td>
+							<td>Place </td>
+							<td>Administrative/Biographical history (CONTEXT AREA)
+								Scope and content (CONTENT AND STRUCTURE AREA)
+							</td>
+							<td>Country of Reference</td>
+							<td>Associated Locale</td>
+							<td>N/A</td>
+						</tr>
+						<tr>
+							<td>published in </td>
+							<td>isPartOf</td>
+							<td>773 </td>
+							<td>N/A</td>
+							<td>Administrative/Biographical history (CONTEXT AREA)
+								Scope and content (CONTENT AND STRUCTURE AREA)</td>
+							<td>Credits</td>
+							<td>N/A</td>
+							<td>Journal Title (JT)</td>
+						</tr>
+					</table>
+				</div>
+				<div class="tab-pane fade" id="when" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+					<table class="table table-striped">
+						<tr>
+							<th>Property</th>
+							<th>DC Terms</th>
+							<th>MARC 21</th>
+							<th>XML(MMD)</th>
+							<th>ISAD(G)</th>
+							<th>CWS</th>
+							<th>MADS/RDF</th>
+							<th>MEDLINE/PubMed</th>
+						</tr>
+						<tr>
+							<td>has publication date</td>
+							<td>Date issued</td>
+							<td>264 $c</td>
+							<td>Release, Date</td>
+							<td>Date(s) (IDENTITY STATEMENT AREA) </td>
+							<td>Year of Reference</td>
+							<td>Temporal Type</td>
+							<td>Date of Publication (DP)</td>
+						</tr>
+						<tr>
+							<td>has date of creation</td>
+							<td>Date created</td>
+							<td>264 $g</td>
+							<td>N/A</td>
+							<td>Date(s) (IDENTITY STATEMENT AREA)</td>
+							<td>Year of Reference</td>
+							<td>Temporal Type</td>
+							<td>Date Created (DA)</td>
+						</tr>
+						<tr>
+							<td>donated in</td>
+							<td>date</td>
+							<td>561 </td>
+							<td>N/A</td>
+							<td>Date(s) (IDENTITY STATEMENT AREA)</td>
+							<td>Year of Reference</td>
+							<td>Temporal Type</td>
+							<td>Immediate source of acquisition or transfer</td>
+						</tr>
+					</table>
+				</div>
+				<div class="tab-pane fade" id="what" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+					<table class="table table-striped">
+						<tr>
+							<th>Property</th>
+							<th>DCTerms</th>
+							<th>MARC 21</th>
+							<th>XML(MMD)</th>
+							<th>ISAD(G)</th>
+							<th>CWS</th>
+							<th>MADS/RDF</th>
+							<th>MEDLINE/PubMed</th>
+						</tr>
+						<tr>
+							<td>has genre</td>
+							<td>type</td>
+							<td>655 $a</td>
+							<td>Genre </td>
+							<td>Scope and content (CONTENT AND STRUCTURE AREA)</td>
+							<td>Genre</td>
+							<td>Genre/Form Type</td>
+							<td>Publication Type (PT)</td>
+						</tr>
+						<tr>
+							<td>has type</td>
+							<td>type</td>
+							<td>655 $a</td>
+							<td>Type property</td>
+							<td>Scope and content (CONTENT AND STRUCTURE AREA)</td>
+							<td>N/A</td>
+							<td>Simple Type</td>
+							<td>Publication Type (PT)
+							</td>
+						</tr>
+						<tr>
+							<td>has language </td>
+							<td>language
+							</td>
+							<td>041 $a</td>
+							<td>Work, languages</td>
+							<td>Language/scripts of materia (CONDITIONS OF ACCESS AND USE AREA)</td>
+							<td>Original Language</td>
+							<td>Language Type</td>
+							<td>Language (LA)</td>
+						</tr>
+						<tr>
+							<td>has subject</td>
+							<td>subject</td>
+							<td>650</td>
+							<td>N/A</td>
+							<td>Scope and content (CONTENT AND STRUCTURE AREA)</td>
+							<td>N/A</td>
+							<td>Topic Type</td>
+							<td>N/A</td>
+						</tr>
+						<tr>
+							<td>has title</td>
+							<td>title</td>
+							<td>245 $a</td>
+							<td>Release, title </td>
+							<td>Title (IDENTITY STATEMENT AREA)</td>
+							<td>Title</td>
+							<td>Title Type</td>
+							<td>Title (TI)</td>
+						</tr>
+						<tr>
+							<td>based on </td>
+							<td>source</td>
+							<td>N/A</td>
+							<td>N/A</td>
+							<td>Scope and content (CONTENT AND STRUCTURE AREA)</td>
+							<td>Relationship</td>
+							<td>Source</td>
+							<td>N/A</td>
+						</tr>
+						<tr>
+							<td>has release title </td>
+							<td>isPartOf</td>
+							<td>773</td>
+							<td>Release, title </td>
+							<td>Title (IDENTITY STATEMENT AREA)</td>
+							<td>Series / Serial</td>
+							<td>Title Type</td>
+							<td>N/A</td>
+						</tr>
+						<tr>
+							<td>has material </td>
+							<td>medium</td>
+							<td>N/A</td>
+							<td>N/A</td>
+							<td>Physical characteristics and technical requirements (CONDITIONS OF ACCESS AND USE AREA)</td>
+							<td>N/A</td>
+							<td>Medium Type</td>
+							<td>N/A</td>
+						</tr>
+						<tr>
+							<td>has name </td>
+							<td>title</td>
+							<td>N/A</td>
+							<td>Name property</td>
+							<td>Title (IDENTITY STATEMENT AREA)</td>
+							<td>Title</td>
+							<td>Name Type</td>
+							<td>N/A</td>
+						</tr>
+						<tr>
+							<td>has identifier</td>
+							<td>identifier</td>
+							<td>020 (ISBN) / 024 (Other)</td>
+							<td>Id</td>
+							<td>Reference code(s) (IDENTITY STATEMENT AREA )</td>
+							<td>Identifier</td>
+							<td>Identifyer </td>
+							<td>Source</td>
+						</tr>
+					</table>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="img-separator three"></div>
@@ -505,92 +954,80 @@
 				nec
 				ullamcorper sit. A cras semper auctor neque.</p>
 
-			<nav>
-				<div class="nav nav-tabs" id="nav-tab" role="tablist">
-					<button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#model"
-						type="button" role="tab" aria-controls="nav-home" aria-selected="true">Model</button>
-					<button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#item-2" type="button"
-						role="tab" aria-controls="nav-profile" aria-selected="false">Item 2</button>
-					<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#item-3" type="button"
-						role="tab" aria-controls="nav-contact" aria-selected="false">Items 3</button>
-					<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-						type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Items 4</button>
-					<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-						type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Items 5</button>
-					<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-						type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Items 6</button>
-					<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-						type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Items 7</button>
-					<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-						type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Items 8</button>
-					<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-						type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Items 9</button>
-					<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-						type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Items 10</button>
-
-
+			<div class="center">
+				<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+					<li class="nav-item" role="presentation">
+						<button class="btn small active" id="pills-home-tab" data-bs-toggle="pill"
+							data-bs-target="#screeenplay" type="button" role="tab" aria-controls="pills-home"
+							aria-selected="true">Screenplay</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="btn small" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#movie"
+							type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Movie</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="btn small" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#song"
+							type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Song</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="btn small" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#letter"
+							type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Letter</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="btn small" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#hat"
+							type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Hat</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="btn small" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#model"
+							type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Model</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="btn small" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#book"
+							type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Book</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="btn small" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#picture"
+							type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Picture</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="btn small" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#hospital"
+							type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Hospital</button>
+					</li>
+				</ul>
+			</div>
+			<div class="tab-content" id="pills-tabContent">
+				<div class="tab-pane fade show active" id="screeenplay" role="tabpanel" aria-labelledby="pills-home-tab"
+					tabindex="0">screenplay</div>
+				<div class="tab-pane fade" id="movie" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">movie
 				</div>
-			</nav>
-			<div class="tab-content" id="nav-tabContent">
-				<div class="tab-pane fade show active" id="model" role="tabpanel" aria-labelledby="nav-home-tab"
-					tabindex="0">
-					<table id="data-table">
-						<thead>
-							<tr>
-								<th>Subject</th>
-								<th>Property</th>
-								<th>Object</th>
-							</tr>
-						</thead>
-						<tbody>
-							<!-- Data rows will be appended here -->
-						</tbody>
-					</table>
+				<div class="tab-pane fade" id="song" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+					song
 				</div>
-				<div class="tab-pane fade" id="item-2" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
-					<table id="data-table">
-						<thead>
-							<tr>
-								<th>Subject</th>
-								<th>Property</th>
-								<th>Object</th>
-							</tr>
-						</thead>
-						<tbody>
-							<!-- Data rows will be appended here -->
-						</tbody>
-					</table>
+				<div class="tab-pane fade" id="letter" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+					letter
 				</div>
-				<div class="tab-pane fade" id="item-3" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
-					Item 3</div>
-				<div class="tab-pane fade show " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-					Item 4
+				<div class="tab-pane fade" id="hat" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+					hat
 				</div>
-				<div class="tab-pane fade show " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-					Item 5
+				<div class="tab-pane fade" id="model" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+					model
 				</div>
-				<div class="tab-pane fade show " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-					Item 6
+				<div class="tab-pane fade" id="book" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+					book
 				</div>
-				<div class="tab-pane fade show " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-					Item 7
+				<div class="tab-pane fade" id="picture" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+					picture
 				</div>
-				<div class="tab-pane fade show " id="nav-home" role="tabpanel" scriptabelledby="nav-home-tab" tabindex="0">
-					Item 8
+				<div class="tab-pane fade" id="hospital" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+					hospital
 				</div>
-				<div class="tab-pane fade show " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-					Item 9
-				</div>
-				<div class="tab-pane fade show " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-					Item 10
-				</div>
-
 			</div>
 
 
 		</div>
 	</div>
-
+	</div>
+	</div>
 	<!-- Start Footer Section -->
 	<footer class="footer-section">
 		<div class="container relative">
