@@ -5,7 +5,7 @@ item/Book;schema:character;person/Miss_Leila_Maturin
 item/Book;rdf:type;bibo:Book
 item/Book;dcterms:title;"The elephant man and other reminiscences"
 item/Book;dcterms:publisher;person/Cassell&Co
-item/Book;schema:datePublished;February 1923
+item/Book;schema:datePublished;1923/02
 item/Book;crm:P62 depicts;item/Artifact
 item/Book;schema:character;person/Tom_Norman
 item/Book;rdcterms:creator;person/Frederick_Treves
