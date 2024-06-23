@@ -1,0 +1,63 @@
+SUBJECT ;PREDICATE ;OBJECT 
+;;
+person/Bernard_Pomerance;rdf:type;foaf:Person
+person/Bernard_Pomerance;owl:sameAs;http://viaf.org/viaf/299041559
+person/Samuel _French;rdf:type;schema:Organization
+person/Samuel _French;owl:sameAs;http://viaf.org/viaf/315661188
+concept/genre/Biographical_Drama;rdf:type;dbpedia-owl:Genre
+concept/genre/Biographical_Drama;skos:broader;Drama
+organization/Royal_London_Hospital_Museum;rdf:type;schema:Hospital
+organization/Royal_London_Hospital_Museum;owl:sameAs;https://www.wikidata.org/wiki/Q7374421
+organization/Royal_London_Hospital_Museum;schema:residence ;place/London
+person/Mastodon ;rdf:type;mo:music group
+person/Mastodon ;owl:sameAs;https://www.wikidata.org/wiki/Q548844
+concept/genre/Progressive_Metal;rdf:type;dbpedia-owl:Genre
+person/Matt Bayles;rdf:type;foaf:Person
+person/Matt Bayles;owl:sameAs;http://viaf.org/viaf/5676165271705110690006
+organizatio/Cassell&Co;rdf:type;schema:Organization
+organizatio/Cassell&Co;owl:sameAs;https://www.wikidata.org/wiki/Q5049289
+place/London ;rdf:type;schema:City
+place/London ;skos:broader;place/England
+place/London ;owl:sameAs;https://www.geonames.org/2643743/london.html
+place/England;rdf:type;schema:Country
+place/England;owl:sameAs;https://www.geonames.org/countries/GB/united-kingdom.html
+person/Frederick_Treves;rdf:type;foaf:Person
+person/Frederick_Treves;owl:sameAs;http://viaf.org/viaf/51811649
+person/Frederick_Treves;schema:worksFor;place/Hospital
+person/Frederick_Treves;dcterms:temporal;time/Victorian_Era
+person/Frederick_Treves;schema:residence ;place/London
+person/Frederick_Treves;schema:MedicalProcedure ;person/King_Edward_VII
+person/Frederick_Treves;cwrc:visits;place/Penny_Gaff
+time/Victorian_Era;rdf:type;gndo:HistoricSingleEventOrEra
+time/Victorian_Era;owl:sameAs;https://www.wikidata.org/wiki/Q182688
+person/King_Edward_VII;rdf:type;foaf:Person
+person/King_Edward_VII;owl:sameAs;https://www.wikidata.org/wiki/Q20875
+place/Penny_Gaff;rdf:type;schema:Place
+place/Penny_Gaff;foaf:based_near;place/Hospital
+place/Penny_Gaff;frbr:owner;person/Tom_Norman
+person/Tom_Norman;rdf:type;foaf:Person
+person/Tom_Norman;owl:sameAs;http://viaf.org/viaf/121792319
+organization/National_Health_Service;rdf:type;frapo:GovernmentOrganization
+person/unknown;rdf:type;foaf:Person
+organization/The_Record_Office;skos:broader;schema:Organization
+organization/The_Record_Office;rdf:type;schema:ArchiveOrganization
+organization/The_Record_Office;owl:sameAs;http://viaf.org/viaf/152695429
+person/John_Hurt;rdf:type;foaf:Person
+person/John_Hurt;schema:character;person/Joseph_Merrick
+person/John_Hurt;owl:sameAs;http://viaf.org/viaf/196522
+person/Anne_Bancroft ;rdf:type;foaf:Person
+person/Anne_Bancroft ;schema:character;person/Madge_Kendal
+person/Anne_Bancroft ;owl:sameAs;http://viaf.org/viaf/7573085
+person/Madge_Kendal;rdf:type;foaf:Person
+person/Madge_Kendal;owl:sameAs;http://viaf.org/viaf/58041265
+person/Anthony_Hopkins;rdf:type;foaf:Person
+person/Anthony_Hopkins;schema:character;person/Frederick_Treves
+person/Anthony_Hopkins;owl:sameAs;http://viaf.org/viaf/2662788
+person/David_Lynch;rdf:type;foaf:Person
+person/David_Lynch;owl:sameAs;http://viaf.org/viaf/164455045
+concept/genre/Drama;rdf:type;dbpedia-owl:Genre
+concept/genre/Biographical;rdf:type;dbpedia-owl:Genre
+organization/Brooks_Film;rdf:type;schema:Organization
+organization/Brooks_Film;owl:sameAs;https://www.wikidata.org/wiki/Q2926174
+place/United_States_of_America;rdf:type;schema:Country
+place/United_States_of_America;owl:sameAs;https://www.geonames.org/countries/US/united-states.html
