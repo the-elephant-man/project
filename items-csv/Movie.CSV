@@ -15,4 +15,4 @@ item/Movie;dcterms:subject;person/Joseph_Merrick
 item/Movie;dcterms:language;language/English
 item/Movie;dcterms:title;"The Elephant man"
 item/Movie;schema:temporalCoverage;time/Victorian_Era
-item/Movie;owl:sameAs;wd:Q272860
+item/Movie;owl:sameAs;https://www.wikidata.org/wiki/Q272860
