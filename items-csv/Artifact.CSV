@@ -1,0 +1,11 @@
+subject;predicate;object;;;
+item/Artifact;dcterms:title;Green velvet flat cap;;;
+item/Artifact;schema:material;"Grey fabric veil, small 
+triangular shaped, a nylon thread ";;;
+item/Artifact;schema:dateCreated;1880;;;
+item/Artifact;dcterms:rightsHolder;organization/Royal London Hospital Museum;;;
+item/Artifact;dcterms:provenance;person/Joseph Merrick;;;
+item/Artifact;rdf:type;crm:E24_Physical_Human-Made_Thing;;;
+item/Artifact;skos:broader;crm:E71 Human-Made Thing;;;
+;;;;;
+;;;;;
