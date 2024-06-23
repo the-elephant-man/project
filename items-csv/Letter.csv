@@ -4,7 +4,6 @@ item/Letter;schema:recipient;person/Miss_Leila_Maturin
 item/Letter;dcterms:rightsHolder;organization/The_Record_Office
 item/Letter;schema:dateCreated;1889/10
 item/Letter;dcterms:title;"Letter from Joseph [Carey] Merrick, London Hospital, Whitechapel to Miss L[eila] Maturin, Sunderland House, Islay, N[orth] B[ritain]"
-item/Letter;dcterms:rightsHolder;place/Royal_London_Hospital_Museum
 item/Letter;dcterms:creator;person/Joseph_Merrick
 item/Letter;dcterms:language;language/English
 item/Letter;schema:locationCreated;place/The_Royal_London_Hospital
