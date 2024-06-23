@@ -338,7 +338,7 @@ padding: 30px 0 30px 0;}
     }
 
 .map {
-  width: 60%;
+  width: 90%;
   display: block;
   margin: auto
 }
@@ -393,6 +393,10 @@ td {
   background-color: #ffff;
   border-color: #2f2f2f;
 
+}
+
+.modal-img {
+  width: 100%
 }
 
 .before-footer-section {

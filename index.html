@@ -27,6 +27,80 @@
 </head>
 
 <body>
+	<!-- Modals for the maps -->
+	<!-- Conceptual map -->
+	<div class="modal fade" id="conceptual-map-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-fullscreen">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="exampleModalLabel">conceptual map</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<img class='modal-img' src="maps/Conceptual-map.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- E/R model -->
+	<div class="modal fade" id="er-model-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-fullscreen">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="exampleModalLabel">E/R model</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<img class='modal-img' src="maps/E_R model.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Theoretical Model -->
+	<div class="modal fade" id="theoretical-model-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-fullscreen">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="exampleModalLabel">Theoretical Model</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<img class='modal-img' src="maps/theoretical model.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- E/R Enhanced -->
+	<div class="modal fade" id="er-enhanced-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-fullscreen">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="exampleModalLabel">E/R enhanced</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<img class='modal-img' src="maps/er-enhanced.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Conceptual Model -->
+	<div class="modal fade" id="conceptual-model-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-fullscreen">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="exampleModalLabel">Conceptual Model</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<img class='modal-img' src="maps/conceptual-model.png">
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Start Header/Navigation -->
 	<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
@@ -63,8 +137,8 @@
 						<ul class="dropdown-menu">
 							<li><a class="dropdown-item" href="#conceptual-map">Conceptual Map</a></li>
 							<li><a class="dropdown-item" href="#er-model">E/R Model</a></li>
-							<li><a class="dropdown-item" href="#">Metadata Analysis</a></li>
-							<li><a class="dropdown-item" href="#">Metadata Alignment</a></li>
+							<li><a class="dropdown-item" href="#metadata-analysis">Metadata Analysis</a></li>
+							<li><a class="dropdown-item" href="#metadata-alignment">Metadata Alignment</a></li>
 							<li><a class="dropdown-item" href="#">Enhanced E/R Model</a></li>
 							<li><a class="dropdown-item" href="#">Conceptual Model</a></li>
 						</ul>
@@ -128,37 +202,46 @@
 					<h2 class="section-title" id="idea">Idea</h2>
 
 					<blockquote class="blockquote">
-						<p class="mb-0" style="text-align: justify; font-size:15px;"><i>"In <b>1947</b> a crazy Norwegian with
+						<p class="mb-0" style="text-align: justify; font-size:15px;"><i>"In <b>1947</b> a crazy Norwegian
+								with
 								a crazier idea
 								sailed west from South America on a <b>raft.</b>"</i></p><br>
 						<footer class="blockquote-footer"><b>The Times,</b> July 10 2020
 						</footer>
 					</blockquote>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+						et
 						dolore magna
 						aliqua. Sed vulputate odio ut enim blandit. Posuere sollicitudin aliquam ultrices sagittis orci a
 						scelerisque. Eget
-						nulla facilisi etiam dignissim. Arcu cursus euismod quis viverra nibh cras pulvinar mattis. Adipiscing
+						nulla facilisi etiam dignissim. Arcu cursus euismod quis viverra nibh cras pulvinar mattis.
+						Adipiscing
 						diam donec
-						adipiscing tristique risus nec feugiat. Tempor orci dapibus ultrices in iaculis nunc sed augue lacus.
+						adipiscing tristique risus nec feugiat. Tempor orci dapibus ultrices in iaculis nunc sed augue
+						lacus.
 						Porta non pulvinar
 						neque laoreet suspendisse interdum consectetur libero. Consectetur adipiscing elit pellentesque
 						habitant morbi tristique
-						senectus. Id donec ultrices tincidunt arcu non. Volutpat maecenas volutpat blandit aliquam etiam erat
+						senectus. Id donec ultrices tincidunt arcu non. Volutpat maecenas volutpat blandit aliquam etiam
+						erat
 						velit scelerisque
-						in. Mi bibendum neque egestas congue quisque egestas diam. Sit amet facilisis magna etiam tempor orci
+						in. Mi bibendum neque egestas congue quisque egestas diam. Sit amet facilisis magna etiam tempor
+						orci
 						eu lobortis.
 						Turpis egestas integer eget aliquet nibh. Nulla at volutpat diam ut venenatis tellus in metus
 						vulputate.</p>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+						et
 						dolore magna
 						aliqua. Sed vulputate odio ut enim blandit. Posuere sollicitudin aliquam ultrices sagittis orci a
 						scelerisque. Eget
-						nulla facilisi etiam dignissim. Arcu cursus euismod quis viverra nibh cras pulvinar mattis. Adipiscing
+						nulla facilisi etiam dignissim. Arcu cursus euismod quis viverra nibh cras pulvinar mattis.
+						Adipiscing
 						diam donec
-						adipiscing tristique risus nec feugiat. Tempor orci dapibus ultrices in iaculis nunc sed augue lacus.
+						adipiscing tristique risus nec feugiat. Tempor orci dapibus ultrices in iaculis nunc sed augue
+						lacus.
 						Porta non pulvinar
 						neque lao</p>
 
@@ -199,12 +282,9 @@
 							<h3>"The Elephant Man"<span>screenplay</span></h3>
 							<div class="meta">
 								<span class="items-descriptions">A famous screenplay written by Bernard Pomerance to narrate the
-									drama of Joseph Merrick's
-									life. The author based it on
-									the memoirs of Sir Frederick Treves ("The Elephant Man and Other Reminiscences"), a doctor
-									and friend of the
-									protagonist.
-								</span>
+									drama of Joseph Merrick' s life. The author based it on the memoirs of Sir Frederick Treves
+									("The Elephant Man
+									and Other Reminiscences"), a doctor and friend of the protagonist. </span>
 								<a href="https://search.worldcat.org/it/title/7429056" target="_blank" class="btn">See more</a>
 							</div>
 						</div>
@@ -429,7 +509,14 @@
 				aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae aliquet
 				nec
 				ullamcorper sit. A cras semper auctor neque.</p>
-			<img class="map" src="images/fake-map.png">
+			<img class="map" src="maps/Conceptual-map.png">
+			<div class="center">
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#conceptual-map-modal">
+					See map fullscreen
+				</button>
+			</div>
+
 
 			<h2 class="section-title" id="er-model">E / R Model</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -437,7 +524,13 @@
 				aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae aliquet
 				nec
 				ullamcorper sit. A cras semper auctor neque.</p>
-			<img class="map" src="images/fake-map.png">
+			<img class="map" src="maps/E_R model.png">
+			<div class="center">
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#er-model-modal">
+					See map fullscreen
+				</button>
+			</div>
 		</div>
 	</div>
 	<div class="img-separator two"></div>
@@ -448,7 +541,7 @@
 
 		<div class="container">
 			<h3>Metadata</h3>
-			<h2 class="section-title" id="idea">Metadata Analysis </h2>
+			<h2 class="section-title" id="metadata-analysis">Metadata Analysis </h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
 				dolore magna
 				aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae aliquet
@@ -553,7 +646,7 @@
 			</table>
 
 			<h3>Metadata</h3>
-			<h2 class="section-title" id="idea">Metadata Alignment</h2>
+			<h2 class="section-title" id="metadata-alignment">Metadata Alignment</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
 				dolore magna
 				aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae aliquet
@@ -915,13 +1008,20 @@
 	<div class="white-section">
 		<div class="container">
 			<h3>Knowledge Organization</h3>
-			<h2 class="section-title" id="theoretical-map">Theoretical Model</h2>
+			<h2 class="section-title" id="theoretical-model">Theoretical Model</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
 				dolore magna
 				aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae aliquet
 				nec
 				ullamcorper sit. A cras semper auctor neque.</p>
-			<img class="map" src="images/fake-map.png">
+			<img class="map" src="maps/theoretical model.png">
+			<div class="center">
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal"
+					data-bs-target="#theoretical-model-modal">
+					See map fullscreen
+				</button>
+			</div>
 
 			<h2 class="section-title" id="enhanced-er">Enhanced E/R Model</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -929,15 +1029,29 @@
 				aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae aliquet
 				nec
 				ullamcorper sit. A cras semper auctor neque.</p>
-			<img class="map" src="images/fake-map.png">
+			<img class="map" src="maps/er-enhanced.png">
+			<div class="center">
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#er-enhanced-modal">
+					See map fullscreen
+				</button>
+			</div>
 
-			<h2 class="section-title" id="enhanced-er">Conceptual Map</h2>
+
+			<h2 class="section-title" id="conceptual-map">Conceptual Model</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
 				dolore magna
 				aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae aliquet
 				nec
 				ullamcorper sit. A cras semper auctor neque.</p>
-			<img class="map" src="images/fake-map.png">
+
+			<img class="map" src="maps/conceptual-model.png">
+			<div class="center">
+				<!-- Button trigger modal -->
+				<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#conceptual-model-modal">
+					See map fullscreen
+				</button>
+			</div>
 		</div>
 	</div>
 	<div class="img-separator four"></div>
@@ -1026,8 +1140,7 @@
 
 		</div>
 	</div>
-	</div>
-	</div>
+
 	<!-- Start Footer Section -->
 	<footer class="footer-section">
 		<div class="container relative">
