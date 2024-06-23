@@ -5,5 +5,5 @@ item/Portrait;dcterms:creator;person/Unknown
 item/Portrait;dcterms:rightsHolder;organization/Royal_London_Hospital_Museum
 item/Portrait;dcterms:subject;person/Joseph_Merrick
 item/Portrait;rdf:type;crm:E36_Visual_Item
-item/Portrait;skos:broader;crm:E36_Visual_Item
-item/Portrait;owl:sameAs;wd:Q215762
+item/Portrait;skos:broader;crm:E73_Information_Object
+item/Portrait;owl:sameAs;https://www.wikidata.org/wiki/Q215762
