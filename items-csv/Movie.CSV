@@ -6,7 +6,7 @@ item/Movie;schema:actor;person/Anthony_Hopkins
 item/Movie;dcterms:creator;person/David_Lynch
 item/Movie;dcterms:publisher;organization/Brooks_Film
 item/Movie;schema:countryOfOrigin;place/United_States_of_America
-item/Movie;schema:datePublished;3 Oct 1988
+item/Movie;schema:datePublished;1988/10/03
 item/Movie;schema:genre;concept/genre/Drama
 item/Movie;schema:genre;concept/genre/Biographical
 item/Movie;crm:P62 depicts;item/Model

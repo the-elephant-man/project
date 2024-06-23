@@ -3,7 +3,7 @@ item/Journal_Article;rdf:type;fabio:JournalArticle
 item/Journal_Article;dcterms:subject;"Proteus syndrome"
 item/Journal_Article;dcterms:subject;person/Joseph_Merrick
 item/Journal_Article;schema:identifier;10.1136/bmj.293.6548.683
-item/Journal_Article;schema:datePublished;1 September 1986
+item/Journal_Article;schema:datePublished;1986/09/01
 item/Journal_Article;dcterms:title;"The Proteus syndrome: the Elephant Man diagnosed"
 item/Journal_Article;schema:genre;concept/genre/Biography
 item/Journal_Article;dcterms:creator;person/M_M_Cohen
