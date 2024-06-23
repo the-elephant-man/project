@@ -103,7 +103,8 @@
 	</div>
 
 	<!-- Start Header/Navigation -->
-	<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+	<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark fixed-top"
+		arial-label="Furni navigation bar">
 
 		<div class="container">
 			<a class="navbar-brand" href="index.html">The Elephant Man <span>LOD</span></a>
@@ -123,9 +124,7 @@
 						<ul class="dropdown-menu">
 							<li><a class="dropdown-item" href="#idea">Idea</a></li>
 							<li><a class="dropdown-item" href="#items">Items</a></li>
-							<li>
-								<hr class="dropdown-divider">
-							</li>
+
 
 						</ul>
 					</li>
@@ -149,13 +148,16 @@
 							Knowledge Representation
 						</a>
 						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">Conceptual Map</a></li>
-							<li><a class="dropdown-item" href="#">E/R Model</a></li>
-							<li><a class="dropdown-item" href="#">Metadata Analysis</a></li>
-							<li><a class="dropdown-item" href="#">Metadata Alignment</a></li>
-							<li><a class="dropdown-item" href="#">Enhanced E/R Model</a></li>
-							<li><a class="dropdown-item" href="#">Conceptual Model</a></li>
+							<li><a class="dropdown-item" href="#items-description">Items description</a></li>
+
+							<li><a class="dropdown-item" href="#rdf-production">RDF Production</a></li>
+							<li><a class="dropdown-item" href="#rdf-visualization">RDF Visualization
+								</a></li>
+
 						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#text-conversions">Text Conversions</a>
 					</li>
 
 				</ul>
@@ -1060,7 +1062,7 @@
 			<div class="macro-title">
 				<h2>Knowledge Representation<span></span></h2>
 			</div>
-			<h2 class="section-title" id="enhanced-er">Items description</h2>
+			<h2 class="section-title" id="items-description">Items description</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
 				dolore magna
 				aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae aliquet
@@ -1621,6 +1623,40 @@
 
 		</div>
 	</div>
+	<div class="white-section">
+		<div class="container">
+			<h2 class="section-title" id="#rdf-production">RDF Production</h2>
+			<h3>URI creation</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+				dolore magna
+				aliqua. Lectus proin nibh nisl condimentum id venenatis a condimentum. At imperdiet dui accumsan sit amet
+				nulla
+				facilisi. Molestie at elementum eu facilisis sed odio morbi. Convallis aenean et tortor at risus viverra.
+				Scelerisque
+				eleifend donec pretium vulputate. Ac odio tempor orci dapibus ultrices in iaculis. Tortor aliquam nulla
+				facilisi cras
+				fermentum. Praesent tristique magna sit amet purus gravida quis blandit turpis. Sit amet mattis vulputate
+				enim nulla
+				aliquet porttitor lacus luctus.
+			</p>
+
+			<h3>CSV to RDF with Python</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+				dolore magna
+				aliqua. Lectus proin nibh nisl condimentum id venenatis a condimentum. At imperdiet dui accumsan sit amet
+				nulla
+				facilisi. Molestie at elementum eu facilisis sed odio morbi. Convallis aenean et tortor at risus viverra.
+			</p>
+			<h2 class="section-title" id="#rdf-visualization">RDF Visualization</h2>
+		</div>
+	</div>
+
+	<div class="grey-section">
+		<div class="container">
+			<h2 class="section-title" id="text-conversions">Text Conversions</h2>
+
+		</div>
+	</div>
 
 	<!-- Start Footer Section -->
 	<footer class="footer-section">
@@ -1648,60 +1684,32 @@
 
 			<div class="border-top copyright">
 				<div class="row pt-4">
-					<div class="col-lg-6">
-						<p class="mb-2 text-center text-lg-start">Copyright &copy;
-							<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash;
-							Designed
-							with love by <a href="https://untree.co">Untree.co</a> Distributed By <a
-								hreff="https://themewagon.com">ThemeWagon</a>
-							<!-- License information: https://untree.co/license/ -->
-						</p>
-					</div>
 
-					<div class="col-lg-6 text-center text-lg-end">
-						<ul class="list-unstyled d-inline-flex ms-auto">
-							<li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
-							<li><a href="#">Privacy Policy</a></li>
-						</ul>
-					</div>
+					<p class="mb-2 text-center text-lg-start">
+						Designed by <a href="https://github.com/qwindici">Ludovica Benini</a> on the basis of <a
+							href="https://untree.co">Untree.co</a>
+						<!-- License information: https://untree.co/license/ -->
+					</p>
 
+
+					<p>
+						The Elephant Man is a Linked Open Data project developed for the "Knowledge Organization and
+						Cultural Heritage" course (a.a.
+						2023/2024) within the Digital Humanities and Digital Knowledge Master's Degree at Alma Mater
+						Studiorum - University of
+						Bologna.</p>
+
+					</ul>
 				</div>
+
 			</div>
+		</div>
 
 		</div>
 	</footer>
 	<!-- End Footer Section -->
 	<script src="js/d3.v7.min.js"></script>
-	<script type="text/javascript" charset="utf-8">
-		async function fetchData() {
-			try {
-				const data = await d3.csv("items-csv/Model.csv");
-				console.log(data); // This will log the array to the console
 
-				// Function to create the table
-				function createTable(data) {
-					// Select the table body
-					const tbody = d3.select("#data-table tbody");
-
-					// Append a row for each data entry
-					data.forEach(item => {
-						const row = tbody.append("tr");
-						row.append("td").text(item.Subject);
-						row.append("td").text(item.Property);
-						row.append("td").text(item.Object);
-					});
-				}
-
-				// Call the function to create the table with the fetched data
-				createTable(data);
-			} catch (error) {
-				console.error('Error:', error);
-			}
-		}
-
-		// Call the async function to fetch the data
-		fetchData();
-	</script>
 	<script src="website_assets/js/bootstrap.bundle.min.js"></script>
 	<script src="website_assets/js/custom.js"></script>
 </body>
