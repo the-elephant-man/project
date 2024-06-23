@@ -512,7 +512,7 @@
 			<img class="map" src="maps/Conceptual-map.png">
 			<div class="center">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#conceptual-map-modal">
+				<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#conceptual-map-modal">
 					See map fullscreen
 				</button>
 			</div>
@@ -527,7 +527,7 @@
 			<img class="map" src="maps/E_R model.png">
 			<div class="center">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#er-model-modal">
+				<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#er-model-modal">
 					See map fullscreen
 				</button>
 			</div>
@@ -1017,8 +1017,7 @@
 			<img class="map" src="maps/theoretical model.png">
 			<div class="center">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary" data-bs-toggle="modal"
-					data-bs-target="#theoretical-model-modal">
+				<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#theoretical-model-modal">
 					See map fullscreen
 				</button>
 			</div>
@@ -1032,7 +1031,7 @@
 			<img class="map" src="maps/er-enhanced.png">
 			<div class="center">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#er-enhanced-modal">
+				<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#er-enhanced-modal">
 					See map fullscreen
 				</button>
 			</div>
@@ -1111,29 +1110,511 @@
 			</div>
 			<div class="tab-content" id="pills-tabContent">
 				<div class="tab-pane fade show active" id="screeenplay" role="tabpanel" aria-labelledby="pills-home-tab"
-					tabindex="0">screenplay</div>
-				<div class="tab-pane fade" id="movie" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">movie
+					tabindex="0">
+					<table class="table table-striped">
+						<tr>
+							<th>Subject</th>
+							<th>Predicate</th>
+							<th>Object</th>
+						</tr>
+						<tr>
+							<td>Screenplay</td>
+							<td>rdf:type</td>
+							<td>screenplay</td>
+						</tr>
+
+						<tr>
+							<td>Screenplay</td>
+							<td>dcterms:publisher</td>
+							<td>Samuel French</td>
+						</tr>
+						<tr>
+							<td>Screenplay</td>
+							<td>dcterms:creator</td>
+							<td>Bernard Pomerance</td>
+						</tr>
+						<tr>
+							<td>Screenplay</td>
+							<td>schema:datePublished</td>
+							<td>1979</td>
+						</tr>
+						<tr>
+							<td>Screenplay</td>
+							<td>schema:genre</td>
+							<td>Biographical Drama</td>
+						</tr>
+						<tr>
+							<td>Screenplay</td>
+							<td>dcterms:title</td>
+							<td>The Elephant Man</td>
+						</tr>
+						<tr>
+							<td>Screenplay</td>
+							<td>schema:identifier</td>
+							<td>ISBN:9780573608742</td>
+						</tr>
+						<tr>
+							<td>Screenplay</td>
+							<td>schema:character</td>
+							<td>Frederick Treves</td>
+						</tr>
+						<tr>
+							<td>Screenplay</td>
+							<td>dcterms:language</td>
+							<td>English</td>
+						</tr>
+						<tr>
+							<td>Screenplay</td>
+							<td>dcterms:subject</td>
+							<td>Joseph Merrick</td>
+						</tr>
+						<tr>
+							<td>Screenplay</td>
+							<td>schema:contentLocation</td>
+							<td>London</td>
+						</tr>
+						<tr>
+							<td>Screenplay</td>
+							<td>schema:character</td>
+							<td>Madge Kendal</td>
+						</tr>
+						<tr>
+							<td>Screenplay</td>
+							<td>schema:temporalCoverage</td>
+							<td>Victorian Era</td>
+						</tr>
+						<tr>
+							<td>Screenplay</td>
+							<td>dbpedia-owl:basedOn</td>
+							<td>The Elephant Man and other reminiscences</td>
+						</tr>
+					</table>
+				</div>
+				<div class="tab-pane fade" id="movie" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+					<table class="table table-striped">
+						<tr>
+							<th>Subject</th>
+							<th>Predicate</th>
+							<th>Object</th>
+						</tr>
+						<tr>
+							<td>Movie</td>
+							<td>rdf:type</td>
+							<td>Movie</td>
+						</tr>
+						<tr>
+							<td> Movie</td>
+							<td>schema:actor</td>
+							<td> John Hurt</td>
+						</tr>
+						<tr>
+							<td> Movie</td>
+							<td>schema:actor</td>
+							<td> Anne Bancroft</td>
+						</tr>
+						<tr>
+							<td> Movie</td>
+							<td>schema:actor</td>
+							<td> Anthony Hopkins</td>
+						</tr>
+						<tr>
+							<td> Movie</td>
+							<td>dcterms:creator</td>
+							<td> David Lynch</td>
+						</tr>
+						<tr>
+							<td> Movie</td>
+							<td>dcterms:publisher</td>
+							<td> Brooks Film</td>
+						</tr>
+						<tr>
+							<td> Movie</td>
+							<td>schema:countryOfOrigin</td>
+							<td> United States of America</td>
+						</tr>
+						<tr>
+							<td> Movie</td>
+							<td>schema:datePublished</td>
+							<td>1988/10/03</td>
+						</tr>
+						<tr>
+							<td> Movie</td>
+							<td>schema:genre</td>
+							<td> Drama</td>
+						</tr>
+						<tr>
+							<td> Movie</td>
+							<td>schema:genre</td>
+							<td> Biographical</td>
+						</tr>
+						<tr>
+							<td> Movie</td>
+							<td>crm:P62 depicts</td>
+							<td> Model</td>
+						</tr>
+						<tr>
+							<td> Movie</td>
+							<td>schema:contentLocation</td>
+							<td> London</td>
+						</tr>
+						<tr>
+							<td> Movie</td>
+							<td>dcterms:subject</td>
+							<td> Joseph Merrick</td>
+						</tr>
+						<tr>
+							<td> Movie</td>
+							<td>dcterms:language</td>
+							<td> English</td>
+						</tr>
+						<tr>
+							<td> Movie</td>
+							<td>dcterms:title</td>
+							<td>The Elephant man</td>
+						</tr>
+						<tr>
+							<td> Movie</td>
+							<td>schema:temporalCoverage</td>
+							<td> Victorian Era</td>
+						</tr>
+					</table>
 				</div>
 				<div class="tab-pane fade" id="song" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
-					song
+					<div class="center">
+						<table class="table table-striped items">
+							<tr>
+								<th>Subject</th>
+								<th>Predicate</th>
+								<th>Object</th>
+							</tr>
+							<tr>
+								<td> Song</td>
+								<td>dcterms:subject</td>
+								<td> Joseph Merrick</td>
+							</tr>
+							<tr>
+								<td> Song</td>
+								<td>dcterms:language</td>
+								<td> English</td>
+							</tr>
+							<tr>
+								<td> Song</td>
+								<td>dcterms:creator</td>
+								<td> Mastodon</td>
+							</tr>
+							<tr>
+								<td> Song</td>
+								<td>dcterms:title</td>
+								<td>Leviathan</td>
+							</tr>
+							<tr>
+								<td> Song</td>
+								<td>rdf:type</td>
+								<td>Song</td>
+							</tr>
+							<tr>
+								<td> Song</td>
+								<td>dcterms:title</td>
+								<td>Joseph Merrick</td>
+							</tr>
+							<tr>
+								<td> Song</td>
+								<td>schema:datePublished</td>
+								<td>2004</td>
+							</tr>
+							<tr>
+								<td> Song</td>
+								<td>mo:producer</td>
+								<td> Matt Bayles</td>
+							</tr>
+							<tr>
+								<td> Song</td>
+								<td>schema:genre</td>
+								<td> Progressive Metal</td>
+							</tr>
+						</table>
+					</div>
 				</div>
 				<div class="tab-pane fade" id="letter" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
-					letter
+					<table class="table table-striped">
+						<tr>
+							<th>Subject</th>
+							<th>Predicate</th>
+							<th>Object</th>
+						</tr>
+						<tr>
+							<td> Letter</td>
+							<td>rdf:type</td>
+							<td>Letter</td>
+						</tr>
+						<tr>
+							<td> Letter</td>
+							<td>schema:recipient</td>
+							<td> Miss Leila Maturin</td>
+						</tr>
+						<tr>
+							<td> Letter</td>
+							<td>dcterms:rightsHolder</td>
+							<td> The Record Office</td>
+						</tr>
+						<tr>
+							<td> Letter</td>
+							<td>schema:dateCreated</td>
+							<td>1889/10</td>
+						</tr>
+						<tr>
+							<td> Letter</td>
+							<td>dcterms:title</td>
+							<td>Letter from Joseph [Carey] Merrick, London Hospital, Whitechapel to Miss L[eila] Maturin,
+								Sunderland House,
+								Islay, N[orth] B[ritain]</td>
+						</tr>
+						<tr>
+							<td> Letter</td>
+							<td>dcterms:creator</td>
+							<td> Joseph Merrick</td>
+						</tr>
+						<tr>
+							<td> Letter</td>
+							<td>dcterms:language</td>
+							<td> English</td>
+						</tr>
+						<tr>
+							<td> Letter</td>
+							<td>schema:locationCreated</td>
+							<td> The Royal London Hospital</td>
+						</tr>
+					</table>
 				</div>
 				<div class="tab-pane fade" id="hat" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
-					hat
+					<table class="table table-striped">
+						<tr>
+							<td>Subject</td>
+							<td>Predicate</td>
+							<td>Object</td>
+						</tr>
+						<tr>
+							<td> Artifact</td>
+							<td>rdf:type</td>
+							<td>Hat</td>
+						</tr>
+						<tr>
+							<td> Artifact</td>
+							<td>dcterms:title</td>
+							<td>Green velvet flat cap</td>
+						</tr>
+						<tr>
+							<td> Artifact</td>
+							<td>schema:material</td>
+							<td>Grey fabric veil, small, triangular shaped, a nylon thread</td>
+						</tr>
+						<tr>
+							<td> Artifact</td>
+							<td>schema:dateCreated</td>
+							<td>1880</td>
+						</tr>
+						<tr>
+							<td> Artifact</td>
+							<td>dcterms:rightsHolder</td>
+							<td> Royal London Hospital Museum</td>
+						</tr>
+						<tr>
+							<td> Artifact</td>
+							<td>dcterms:provenance</td>
+							<td> Joseph Merrick</td>
+						</tr>
+					</table>
 				</div>
 				<div class="tab-pane fade" id="model" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
-					model
+					<table class="table table-striped">
+						<tr>
+							<th>Subject</th>
+							<th>Property</th>
+							<th>Object</th>
+						</tr>
+						<tr>
+							<td> Model</td>
+							<td>rdf:type</td>
+							<td>Model</td>
+						</tr>
+						<tr>
+							<td> Model</td>
+							<td>dcterms:creator</td>
+							<td> Joseph Merrick</td>
+						</tr>
+						<tr>
+							<td> Model</td>
+							<td>schema:dateCreated</td>
+							<td>1886</td>
+						</tr>
+						<tr>
+							<td> Model</td>
+							<td>schema:material</td>
+							<td>pre-printed card</td>
+						</tr>
+						<tr>
+							<td> Model</td>
+							<td>fabio:has date received</td>
+							<td>1917</td>
+						</tr>
+						<tr>
+							<td> Model</td>
+							<td>dcterms:title</td>
+							<td>German model of Mainz cathedral</td>
+						</tr>
+						<tr>
+							<td> Model</td>
+							<td>schema:locationCreated</td>
+							<td> The Royal London Hospital</td>
+						</tr>
+						<tr>
+							<td> Model</td>
+							<td>dcterms:rightsHolder</td>
+							<td> Royal London Hospital Museum</td>
+						</tr>
+						<tr>
+							<td> Model</td>
+							<td>frapo:is donated by</td>
+							<td> Madge Kendal</td>
+						</tr>
+					</table>
 				</div>
 				<div class="tab-pane fade" id="book" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
-					book
+					<table class="table table-striped">
+						<tr>
+							<th>Subject</th>
+							<th>Predicate</th>
+							<th>Object</th>
+						</tr>
+						<tr>
+							<td> Book</td>
+							<td>dcterms:subject</td>
+							<td> Joseph Merrick</td>
+						</tr>
+						<tr>
+							<td> Book</td>
+							<td>dcterms:language</td>
+							<td> English</td>
+						</tr>
+						<tr>
+							<td> Book</td>
+							<td>schema:character</td>
+							<td> Miss Leila Maturin</td>
+						</tr>
+						<tr>
+							<td> Book</td>
+							<td>rdf:type</td>
+							<td>Book</td>
+						</tr>
+						<tr>
+							<td> Book</td>
+							<td>dcterms:title</td>
+							<td>The Elephant Man and other reminiscences</td>
+						</tr>
+						<tr>
+							<td> Book</td>
+							<td>dcterms:publisher</td>
+							<td> Cassell&amp;Co</td>
+						</tr>
+						<tr>
+							<td> Book</td>
+							<td>schema:datePublished</td>
+							<td> 1923/02</td>
+						</tr>
+						<tr>
+							<td> Book</td>
+							<td>crm:P62 depicts</td>
+							<td>Joseph Merrick's Hat</td>
+						</tr>
+						<tr>
+							<td> Book</td>
+							<td>schema:character</td>
+							<td> Tom Norman</td>
+						</tr>
+						<tr>
+							<td> Book</td>
+							<td>rdcterms:creator</td>
+							<td> Frederick Treves</td>
+						</tr>
+						<tr>
+							<td> Book</td>
+							<td>fabio:has place of publication</td>
+							<td> London</td>
+						</tr>
+					</table>
 				</div>
 				<div class="tab-pane fade" id="picture" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
-					picture
+					<table class="table table-striped">
+						<tr>
+							<td>Subject</td>
+							<td>Predicate</td>
+							<td>Object</td>
+						</tr>
+						<tr>
+							<td> Portrait</td>
+							<td>schema:dateCreated</td>
+							<td>1889</td>
+						</tr>
+						<tr>
+							<td> Portrait</td>
+							<td>dcterms:title</td>
+							<td>Carte de visite portrait photograph of Joseph Merrick</td>
+						</tr>
+						<tr>
+							<td> Portrait</td>
+							<td>dcterms:creator</td>
+							<td> Unknown</td>
+						</tr>
+						<tr>
+							<td> Portrait</td>
+							<td>dcterms:rightsHolder</td>
+							<td> Royal London Hospital Museum</td>
+						</tr>
+						<tr>
+							<td> Portrait</td>
+							<td>dcterms:subject</td>
+							<td> Joseph Merrick</td>
+						</tr>
+						<tr>
+							<td> Portrait</td>
+							<td>rdf:type</td>
+							<td>Visual Item</td>
+						</tr>
+					</table>
 				</div>
 				<div class="tab-pane fade" id="hospital" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
-					hospital
+					<table class="table table-striped">
+						<tr>
+							<th>Subject</th>
+							<th>Predicate</th>
+							<th>Object</th>
+						</tr>
+						<tr>
+							<td> Hospital</td>
+							<td>dcterms:isPartOf</td>
+							<td> National Health Service</td>
+						</tr>
+						<tr>
+							<td> Hospital</td>
+							<td>rdf:type</td>
+							<td>Hospital</td>
+						</tr>
+						<tr>
+							<td> Hospital</td>
+							<td>schema:dateCreated</td>
+							<td>1740</td>
+						</tr>
+						<tr>
+							<td> Hospital</td>
+							<td>schema:containedInPlace</td>
+							<td> London</td>
+						</tr>
+						<tr>
+							<td> Hospital</td>
+							<td>skos:broader</td>
+							<td> National Health Service</td>
+						</tr>
+					</table>
 				</div>
 			</div>
 
