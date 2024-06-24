@@ -45,7 +45,7 @@
                 <p>The original text has been transcribed faithfully without additions or modifications, except for the indication of omitted paragraphs. No content editing or typographical corrections have been made.</p>
             </editorialDecl>
             <samplingDecl>
-                <p>The provided text is not complete and contains only the paragraphs 1, 4 and 56 with omission indicated by "[...]". There is no italicized text.</p>
+                <p>The provided text is not complete and contains only the paragraphs 1, 4, 11, 12 and 56 with omission indicated by "[...]". There is no italicized text.</p>
             </samplingDecl>
         </encodingDesc>
         <profileDesc>
@@ -107,7 +107,7 @@
             <div type="chapter" n="1">
                 <head> I. The Elephant Man </head>
                 <div type="paragraph" n="1">
-                    <p>IN the Mile End Road, opposite to the <placeName ref="https://www.wikidata.org/wiki/Q7374421">London Hospital</placeName>, 
+                    <p>IN the <placeName sameAs="https://www.wikidata.org/wiki/Q64163086">Mile End Road</placeName>, opposite to the <placeName sameAs="https://www.wikidata.org/wiki/Q7374421">London Hospital</placeName>, 
                         there was (and possibly still is) a line of small shops. Among them was a vacant greengrocer’s which was to let. 
                         The whole of the front of the shop, with the exception of the door, was hidden by a hanging sheet of canvas on which was 
                         the announcement that <persName ref="#Merrick">the Elephant Man</persName> was to be seen within and 
@@ -128,6 +128,23 @@
                         or disease, as well as mutilations and contortions of the body depending upon like causes; but at no time had I met with such a degraded or 
                         perverted version of a human being as this lone figure displayed. He was naked to the waist, his feet were bare, he wore a pair of threadbare 
                         trousers that had4 once belonged to some fat gentleman’s dress suit.
+                    </p>
+                </div>
+                <div type="paragraph" n="11">
+                    <p>
+                        The episode of <persName ref="#Merrick">the Elephant Man</persName> was, I imagined, closed; but I was fated to meet him again—<date when="1886">two years later</date>—under more dramatic conditions. 
+                        In <placeName sameAs="https://www.geonames.org/6269131/england.html">England</placeName> the <persName ref="#Showman">showman</persName> and <persName ref="#Merrick">Merrick</persName> had been moved on from place to place by the police, who considered the exhibition degrading and among the things 
+                        that could not be allowed. It was hoped that in the uncritical retreats of <placeName sameAs="https://www.wikidata.org/wiki/Q64163086">Mile End</placeName> a more abiding peace would be found. But it was not to be. The official mind 
+                        there, as elsewhere, very properly decreed that the public exposure of <persName ref="#Merrick">Merrick</persName> and his deformities transgressed the limits of decency. The show must close.
+                    </p>
+                </div>
+                <div type="paragraph" n="12">
+                    <p>
+                    The <persName ref="#Showman">showman</persName>, in despair, fled with his charge to the Continent. Whither he roamed at first I do not know; but he came finally to <placeName sameAs="https://www.geonames.org/2800866/brussels.html">Brussels</placeName>. His reception was discouraging. 
+                    <placeName sameAs="https://www.geonames.org/2800866/brussels.html">Brussels</placeName> was firm; the exhibition was banned; it was brutal, indecent and immoral, and could not be permitted within the confines of <placeName sameAs="https://www.geonames.org/2802361/kingdom-of-belgium.html">Belgium</placeName>. 
+                    <persName ref="#Merrick">Merrick</persName> was thus no longer of value. 
+                    He was no longer a source of profitable entertainment. He was a burden. He must be got rid of. The elimination of <persName ref="#Merrick">Merrick</persName> was a simple matter. He could offer no resistance. 
+                    He was as docile as a sick sheep. The impresario, having robbed <persName ref="#Merrick">Merrick</persName> of his paltry savings, gave him a ticket to <placeName sameAs="https://www.geonames.org/2643743/london.html">London</placeName>, saw him into the train and no doubt in parting condemned him to perdition.
                     </p>
                 </div>
                 <div type="paragraph" n="56">

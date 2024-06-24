@@ -1,0 +1,35 @@
+@base <https://w3id.org/the-elephant-man/> .
+@prefix BIBTEX: <http://purl.oclc.org/NET/nknouf/ns/bibtex#> .
+@prefix FABIO: <http://purl.org/spar/fabio/> .
+@prefix SCHEMA: <https://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<Book> BIBTEX:has_edition <Ebook> ;
+    dcterms:creator <Frederick-Treves> ;
+    dcterms:publisher <https://www.wikidata.org/wiki/Q5049289> ;
+    dcterms:title "The Elephant Man and Other Reminiscences" ;
+    FABIO:hasPlaceOfPublication "London" ;
+    SCHEMA:contentLocation "London, Great Britain" ;
+    SCHEMA:datePublished "1923" ;
+    SCHEMA:temporalCoverage "Late 19th century" .
+
+<John-Merrick> owl:sameAs <http://viaf.org/viaf/62352264> ;
+    foaf:name "John Merrick" ;
+    foaf:nick "The elephant man" .
+
+<Showman> owl:sameAs <https://www.wikidata.org/wiki/Q7817056> ;
+    foaf:name "Unknown " ;
+    foaf:nick "Showman" ;
+    SCHEMA:hasOccupation "Showman" .
+
+<Ebook> dcterms:extent "0.28 MB" ;
+    dcterms:publisher "Project Gutenberg" ;
+    SCHEMA:datePublished "2019/07/06" ;
+    SCHEMA:identifier "59865" .
+
+<Frederick-Treves> owl:sameAs <http://viaf.org/viaf/265340794> ;
+    foaf:name "Frederick Treves" ;
+    SCHEMA:hasOccupation "Doctor" .
+

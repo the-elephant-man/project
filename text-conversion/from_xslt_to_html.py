@@ -1,6 +1,10 @@
 from lxml import etree
+import os
 
-tei_file = etree.parse("tei_xml")
+print(os.getcwd())
+
+
+tei_file = etree.parse("xml_text.xml")
 xsli_file = etree.parse("xml_to_xslt.xslt")
 
 transform = etree.XSLT(xsli_file)
