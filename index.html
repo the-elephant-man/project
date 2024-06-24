@@ -1782,15 +1782,55 @@
 	<div class="grey-section">
 		<div class="container">
 			<h2 class="section-title" id="text-conversions">Text Conversions</h2>
+			<p>In this phase, our team utilized various tools to thoroughly analyze the digital book edition of “The
+				Elephant Man and
+				Other Reminiscences” by Frederick Treves. By employing XML/TEI encoding, XSLT conversion, RDF/XML
+				representation, and
+				Python scripting, we aimed to uncover the intricate layers of meaning embedded in Treves' work.
+			</p>
 			<h3>XML/TEI</h3>
+			<p>TEI (Text Encoding Initiative) is a standard for encoding texts, primarily in the humanities, to ensure
+				their
+				preservation, interoperability, and accessibility in digital formats. We have encoded an XML/TEI document to
+				represent
+				the textual structure of selected parts of the first chapter from “The Elephant Man and Other
+				Reminiscences.” This
+				document captures fundamental sections, such as the first encounter between Merrick and Treves and the
+				description of
+				Merrick's body.
+
+				The original text has been transcribed faithfully without additions or modifications, except for the
+				selection of
+				specific paragraphs. The XML/TEI document of “The Elephant Man and Other Reminiscences” text's sample is
+				available at
+				<a href="https://raw.githubusercontent.com/the-elephant-man/project/main/text-conversion/xml_text.xml"
+					target="_blank">this link</a>.
+			</p>
 			<h3>XSLT for XML to HTML conversion</h3>
+			<p>This section demonstrates the application of XSLT (Extensible Stylesheet Language Transformations) to
+				convert XML
+				documents into HTML format. The primary objective is to present XML data on web platforms in a visually
+				appealing and
+				user-friendly manner while maintaining the document integrity.
+				The XSLT document can be accessed via <a
+					href="https://raw.githubusercontent.com/the-elephant-man/project/main/text-conversion/xml_to_xslt.xslt"
+					target="_blank">this link</a>.
+			<p>Python scripts for TEI conversion can be found <a
+					href="https://raw.githubusercontent.com/the-elephant-man/project/main/text-conversion/from_xslt_to_html.py"
+					target="_blank">here.</a></p>
+			<p>You can view the resulting HTML document from the conversion <a href="/text-conversion/Elephant.html"
+					target="_blank"></href>here.</a></p>
+			</p>
 			<h3>XML/TEI to RDf conversion</h3>
 			<p>Using Python's XML library, we extracted information from the nodes of the XML/TEI file and transformed it
 				into RDF
 				triples. Then, we serialized the graph in Turtle format, containing all the triples.</p>
-			<p><a href="https://raw.githubusercontent.com/the-elephant-man/project/main/rdf_production/turtle-serialization.ttl"
-					target="_blank">click
-					here</a>. the link to the python file.</p>
+			<p><a href="https://raw.githubusercontent.com/the-elephant-man/project/main/text-conversion/TEI-to-RDF.py"
+					target="_blank">Here</a> the link to the python file.</p>
+			<p>Finally, we uploaded the Turtle file to <a href="https://www.ldf.fi/service/rdf-grapher" target="_blank">
+					RDF Grapher</a> to visualize the graph.</p>
+			<img class="map" src="maps/rdf-graph-2.png">
+
 
 		</div>
 	</div>
@@ -1803,16 +1843,23 @@
 			<div class="row g-5 mb-5">
 
 				<div class="col">
-
+					<div class="us-container">
+						<img src="website_assets/images/anna.jpg" class="img-fluid">
+					</div>
 					<div class="ciao" style="text-align: center;">Anna</div>
 				</div>
 
 				<div class="col">
-
+					<div class="us-container">
+						<img src="website_assets/images/ludo.jpeg" class="img-fluid">
+					</div>
 					<div class="ciao" style="text-align: center;">Ludo</div>
 				</div>
 
 				<div class="col">
+					<div class="us-container">
+						<img src="website_assets/images/virginia.jpg" class="img-fluid">
+					</div>
 
 					<div class="ciao" style="text-align: center;">Virgi</div>
 				</div>
