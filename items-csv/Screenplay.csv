@@ -1,0 +1,16 @@
+Subject;Predicate;Object
+item/Screenplay;rdf:type;fabio:screenplay
+item/Screenplay;owl:sameAs;http://viaf.org/viaf/176820564
+item/Screenplay;dcterms:publisher;person/Samuel French
+item/Screenplay;dcterms:creator;person/Bernard Pomerance
+item/Screenplay;schema:datePublished;1979
+item/Screenplay;schema:genre;concept/genre/Biographical Drama
+item/Screenplay;dcterms:title;"The Elephant Man"
+item/Screenplay;schema:identifier;ISBN:9780573608742
+item/Screenplay;schema:character;person/Frederick Treves
+item/Screenplay;dcterms:language;language/English
+item/Screenplay;dcterms:subject;person/Joseph Merrick
+item/Screenplay;schema:contentLocation;place/London
+item/Screenplay;schema:character;person/Madge Kendal
+item/Screenplay;schema:temporalCoverage;time/Victorian Era
+item/Screenplay;dbo:basedOn;item/Book

@@ -1,18 +1,18 @@
 SUBJECT;PREDICATE;OBJECT
 item/Movie;rdf:type;Schema:Movie
-item/Movie;schema:actor;person/John_Hurt
-item/Movie;schema:actor;person/Anne_Bancroft 
-item/Movie;schema:actor;person/Anthony_Hopkins
-item/Movie;dcterms:creator;person/David_Lynch
-item/Movie;dcterms:publisher;organization/Brooks_Film
-item/Movie;schema:countryOfOrigin;place/United_States_of_America
+item/Movie;schema:actor;person/John Hurt
+item/Movie;schema:actor;person/Anne Bancroft 
+item/Movie;schema:actor;person/Anthony Hopkins
+item/Movie;dcterms:creator;person/David Lynch
+item/Movie;dcterms:publisher;organization/Brooks Film
+item/Movie;schema:countryOfOrigin;place/United States of America
 item/Movie;schema:datePublished;1988/10/03
 item/Movie;schema:genre;concept/genre/Drama
 item/Movie;schema:genre;concept/genre/Biographical
 item/Movie;crm:P62 depicts;item/Model
 item/Movie;schema:contentLocation;place/London
-item/Movie;dcterms:subject;person/Joseph_Merrick
+item/Movie;dcterms:subject;person/Joseph Merrick
 item/Movie;dcterms:language;language/English
-item/Movie;dcterms:title;"The Elephant man"
-item/Movie;schema:temporalCoverage;time/Victorian_Era
+item/Movie;dcterms:title;"The Elephant Man"
+item/Movie;schema:temporalCoverage;time/Victorian Era
 item/Movie;owl:sameAs;https://www.wikidata.org/wiki/Q272860

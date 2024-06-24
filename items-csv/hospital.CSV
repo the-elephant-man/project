@@ -1,8 +1,8 @@
-SUBJECT;PREDICATE;OBJECT
-item/Hospital;dcterms:isPartOf;organization/National_Health_Service
+Subject;Predicate;Object
+item/Hospital;dcterms:isPartOf;organization/National Health Service
 item/Hospital;rdf:type;schema:Hospital
 item/Hospital;schema:dateCreated;1740
 item/Hospital;schema:containedInPlace;place/London
-item/Hospital;skos:broader;organization/National_Health_Service
+item/Hospital;skos:broader;organization/National Health Service
 item/Hospital;owl:sameAs;wd:Q7374421
-item/Hospital;skos:narrower;organization/Royal_London_Hospital_Museum
+item/Hospital;skos:narrower;organization/Royal London Hospital Museum

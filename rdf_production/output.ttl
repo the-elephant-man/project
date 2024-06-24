@@ -1,0 +1,231 @@
+@base <https://w3id.org/the-elephant-man/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix cwrc: <https://sparql.cwrc.ca/ontologies/cwrc.html#> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix frapo: <http://purl.org/cerif/frapo> .
+@prefix frbr: <http://purl.org/vocab/frbr/core> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd> .
+@prefix gvp: <http://vocab.getty.edu/ontology> .
+@prefix mo: <http://musicontology.com/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity> .
+
+<item/Journal-Article> a fabio:JournalArticle ;
+    dcterms:creator <person/J-A-Tibbles>,
+        <person/M-M-Cohen> ;
+    dcterms:isPartOf <organization/British-medical-journal> ;
+    dcterms:language <language/English> ;
+    dcterms:subject <person/Joseph-Merrick>,
+        "Proteus syndrome" ;
+    dcterms:title "The Proteus syndrome: the Elephant Man diagnosed" ;
+    fabio:hasPlaceOfPublication <place/England> ;
+    owl:sameAs <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1341524/> ;
+    schema:datePublished "1986/09/01"^^schema:Date ;
+    schema:genre <concept/genre/Biography> ;
+    schema:identifier "10.1136/bmj.293.6548.683" .
+
+<item/Letter> a fabio:Letter ;
+    dcterms:creator <person/Joseph-Merrick> ;
+    dcterms:language <language/English> ;
+    dcterms:rightsHolder <organization/The-Record-Office> ;
+    dcterms:title "Letter from Joseph [Carey] Merrick, London Hospital, Whitechapel to Miss L[eila] Maturin, Sunderland House, Islay, N[orth] B[ritain]" ;
+    schema:dateCreated "1889/10"^^schema:Date ;
+    schema:locationCreated <place/The-Royal-London-Hospital> ;
+    schema:recipient <person/Miss-Leila-Maturin> .
+
+<item/Movie> a "Schema:Movie" ;
+    dcterms:creator <person/David-Lynch> ;
+    dcterms:language <language/English> ;
+    dcterms:publisher <organization/Brooks-Film> ;
+    dcterms:subject <person/Joseph-Merrick> ;
+    dcterms:title "The Elephant Man" ;
+    crm:P62 <item/Model> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q272860> ;
+    schema:actor <person/Anne-Bancroft->,
+        <person/Anthony-Hopkins>,
+        <person/John-Hurt> ;
+    schema:contentLocation <place/London> ;
+    schema:countryOfOrigin <place/United-States-of-America> ;
+    schema:datePublished "1988/10/03"^^schema:Date ;
+    schema:genre <concept/genre/Biographical>,
+        <concept/genre/Drama> ;
+    schema:temporalCoverage <time/Victorian-Era> .
+
+<item/Portrait> a crm:E36_Visual_Item ;
+    dcterms:creator <person/Unknown> ;
+    dcterms:rightsHolder <organization/Royal-London-Hospital-Museum> ;
+    dcterms:subject <person/Joseph-Merrick> ;
+    dcterms:title "Carte de visite portrait photograph of Joseph Merrick" ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q215762> ;
+    skos:broader crm:E73_Information_Object ;
+    schema:dateCreated "1889"^^schema:Date .
+
+<item/Screenplay> a fabio:screenplay ;
+    dcterms:creator <person/Bernard-Pomerance> ;
+    dcterms:language <language/English> ;
+    dcterms:publisher <person/Samuel-French> ;
+    dcterms:subject <person/Joseph-Merrick> ;
+    dcterms:title "The Elephant Man" ;
+    owl:sameAs <http://viaf.org/viaf/176820564> ;
+    dbo:basedOn <item/Book> ;
+    schema:character <person/Frederick-Treves>,
+        <person/Madge-Kendal> ;
+    schema:contentLocation <place/London> ;
+    schema:datePublished "1979"^^schema:Date ;
+    schema:genre <concept/genre/Biographical-Drama> ;
+    schema:identifier "ISBN:9780573608742" ;
+    schema:temporalCoverage <time/Victorian-Era> .
+
+<item/Song> a fabio:Song ;
+    mo:producer <person/Matt-Bayles> ;
+    dcterms:creator <person/Mastodon> ;
+    dcterms:language <language/English> ;
+    dcterms:subject <person/Joseph-Merrick> ;
+    dcterms:title "Joseph Merrick",
+        "Leviathan" ;
+    schema:datePublished "2004"^^schema:Date ;
+    schema:genre <concept/genre/Progressive-Metal> .
+
+<organizatio/Cassell&Co> a schema:Organization ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q5049289> .
+
+<person/Anne-Bancroft> a foaf:Person ;
+    owl:sameAs <http://viaf.org/viaf/7573085> ;
+    schema:character <person/Madge-Kendal> .
+
+<person/unknown> a foaf:Person .
+
+<concept/genre/Biographical> a dbo:Genre .
+
+<concept/genre/Biographical-Drama> a dbo:Genre ;
+    skos:broader dbo:Drama .
+
+<concept/genre/Drama> a dbo:Genre .
+
+<concept/genre/Progressive-Metal> a dbo:Genre .
+
+<item/Artifact> a crm:E24_Physical_Human_Made_Thing ;
+    dcterms:provenance <person/Joseph-Merrick> ;
+    dcterms:rightsHolder <organization/Royal-London-Hospital-Museum> ;
+    dcterms:title "Green velvet flat cap" ;
+    skos:broader crm:E71_Human_Made_Thing ;
+    schema:dateCreated "1880"^^schema:Date ;
+    schema:material "Grey fabric veil, small triangular shaped, a nylon thread" .
+
+<item/Book> a bibo:Book ;
+    dcterms:creator <person/Frederick-Treves> ;
+    dcterms:language <language/English> ;
+    dcterms:publisher <person/Cassell&Co> ;
+    dcterms:subject <person/Joseph-Merrick> ;
+    dcterms:title "The elephant man and other reminiscences" ;
+    fabio:hasPlaceOfPublication <place/London-> ;
+    crm:P62 <item/Artifact> ;
+    owl:sameAs wd:Q65988906 ;
+    schema:character <person/Miss-Leila-Maturin>,
+        <person/Tom-Norman> ;
+    schema:datePublished "1923/02"^^schema:Date .
+
+<item/Hospital> a schema:Hospital ;
+    dcterms:isPartOf <organization/National-Health-Service> ;
+    owl:sameAs wd:Q7374421 ;
+    skos:broader <organization/National-Health-Service> ;
+    skos:narrower <organization/Royal-London-Hospital-Museum> ;
+    schema:containedInPlace <place/London> ;
+    schema:dateCreated "1740"^^schema:Date .
+
+<item/Model> a fabio:Model ;
+    frapo:isDonatedBy <person/Madge-Kendal> ;
+    dcterms:creator <person/Joseph-Merrick> ;
+    dcterms:rightsHolder <place/Royal-London-Hospital-Museum> ;
+    dcterms:title "German model of Mainz cathedral" ;
+    fabio:hasDateReceived "1917"^^schema:Date ;
+    schema:dateCreated "1886"^^schema:Date ;
+    schema:locationCreated <place/The-Royal-London-Hospital> ;
+    schema:material "pre-printed card" .
+
+<organization/Brooks-Film> a schema:Organization ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q2926174> .
+
+<organization/The-Record-Office> a schema:ArchiveOrganization ;
+    owl:sameAs <http://viaf.org/viaf/152695429> ;
+    skos:broader schema:Organization .
+
+<person/Anthony-Hopkins> a foaf:Person ;
+    owl:sameAs <http://viaf.org/viaf/2662788> ;
+    schema:character <person/Frederick-Treves> .
+
+<person/Bernard-Pomerance> a foaf:Person ;
+    owl:sameAs <http://viaf.org/viaf/299041559> .
+
+<person/David-Lynch> a foaf:Person ;
+    owl:sameAs <http://viaf.org/viaf/164455045> .
+
+<person/John-Hurt> a foaf:Person ;
+    owl:sameAs <http://viaf.org/viaf/196522> ;
+    schema:character <person/Joseph-Merrick> .
+
+<person/King-Edward-VII> a foaf:Person ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q20875> .
+
+<person/Mastodon> a mo:MusicGroup ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q548844> .
+
+<person/Matt-Bayles> a foaf:Person ;
+    owl:sameAs <http://viaf.org/viaf/5676165271705110690006> .
+
+<person/Samuel-French> a schema:Organization ;
+    owl:sameAs <http://viaf.org/viaf/315661188> .
+
+<place/United-States-of-America> a schema:Country ;
+    owl:sameAs <https://www.geonames.org/countries/US/united-states.html> .
+
+<organization/National-Health-Service> a frapo:GovernmentOrganization .
+
+<person/Tom-Norman> a foaf:Person ;
+    owl:sameAs <http://viaf.org/viaf/121792319> .
+
+<place/England> a schema:Country ;
+    owl:sameAs <https://www.geonames.org/countries/GB/united-kingdom.html> .
+
+<place/Penny-Gaff> a schema:Place ;
+    frbr:owner <person/Tom-Norman> ;
+    foaf:based_near <place/Hospital> .
+
+<organization/Royal-London-Hospital-Museum> a schema:Hospital ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q7374421> ;
+    dbo:residence <place/London> .
+
+<person/Madge-Kendal> a foaf:Person ;
+    owl:sameAs <http://viaf.org/viaf/58041265> .
+
+<person/Frederick-Treves> a foaf:Person ;
+    dcterms:temporal <time/Victorian-Era> ;
+    owl:sameAs <http://viaf.org/viaf/51811649> ;
+    dbo:residence <place/London> ;
+    schema:MedicalProcedure <person/King-Edward-VII> ;
+    schema:worksFor <place/Hospital> ;
+    cwrc:visits <place/Penny-Gaff> .
+
+<time/Victorian-Era> a gndo:HistoricSingleEventOrEra ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q182688> .
+
+<place/London> a schema:City ;
+    owl:sameAs <https://www.geonames.org/2643743/london.html> ;
+    skos:broader <place/England> .
+
+<person/Joseph-Merrick> a foaf:Person ;
+    dcterms:temporal <time/Victorian-Era> ;
+    gvp:ulan2550_friend_of <person/Frederick-Treves> ;
+    owl:sameAs <http://viaf.org/viaf/62352264> ;
+    dbo:exhibition <place/Penny-Gaff> ;
+    dbo:residence <item/Hospital>,
+        <place/London> ;
+    schema:birthDate "1862/08/05"^^schema:Date ;
+    schema:deathDate "1890/04/11"^^schema:Date .
+

@@ -1,13 +1,13 @@
-SUBJECT;PREDICATE;OBJECT
-item/Book;dcterms:subject;person/Joseph_Merrick
-item/Book;dcterms:language;language/english
-item/Book;schema:character;person/Miss_Leila_Maturin
+Subject;Predicate;Object
+item/Book;dcterms:subject;person/Joseph Merrick
+item/Book;dcterms:language;language/English
+item/Book;schema:character;person/Miss Leila Maturin
 item/Book;rdf:type;bibo:Book
 item/Book;dcterms:title;"The elephant man and other reminiscences"
 item/Book;dcterms:publisher;person/Cassell&Co
 item/Book;schema:datePublished;1923/02
 item/Book;crm:P62 depicts;item/Artifact
-item/Book;schema:character;person/Tom_Norman
-item/Book;rdcterms:creator;person/Frederick_Treves
-item/Book;fabio:has place of publication;place/London 
+item/Book;schema:character;person/Tom Norman
+item/Book;dcterms:creator;person/Frederick Treves
+item/Book;fabio:hasPlaceOfPublication;place/London 
 item/Book;owl:sameAs;wd:Q65988906

@@ -1,10 +1,10 @@
 SUBJECT;PREDICATE;OBJECT
-item/Person;gvp:ulan2550_friend_of;item/Person
-item/Person;schema:residence;item/Hospital
-item/Person;dbpedia-owl:exhibition;place/Penny_Gaff
-item/Person;schema:birthDate;05/08/1862
-item/Person;schema:deathDate;11/04/1890
-item/Person;dcterms:temporal;time/Victorian_Era
-item/Person;schema:residence;place/London
-item/Person;rdf:type;foaf:Person
-item/Person;owl:sameAs;http://viaf.org/viaf/62352264
+person/Joseph Merrick;rdf:type;foaf:Person
+person/Joseph Merrick;gvp:ulan2550_friend_of;person/Frederick Treves
+person/Joseph Merrick;dbo:residence;item/Hospital
+person/Joseph Merrick;dbo:exhibition;place/Penny Gaff
+person/Joseph Merrick;schema:birthDate;1862/08/05
+person/Joseph Merrick;schema:deathDate;1890/04/11
+person/Joseph Merrick;dcterms:temporal;time/Victorian Era
+person/Joseph Merrick;dbo:residence;place/London
+person/Joseph Merrick;owl:sameAs;http://viaf.org/viaf/62352264

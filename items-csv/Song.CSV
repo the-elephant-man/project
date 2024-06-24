@@ -1,0 +1,10 @@
+SUBJECT;PREDICATE;OBJECT
+item/Song;dcterms:subject;person/Joseph Merrick
+item/Song;dcterms:language;language/English
+item/Song;dcterms:creator;person/Mastodon
+item/Song;dcterms:title;Leviathan
+item/Song;rdf:type;fabio:Song
+item/Song;dcterms:title;Joseph Merrick
+item/Song;schema:datePublished;2004
+item/Song;mo:producer;person/Matt Bayles
+item/Song;schema:genre;concept/genre/Progressive Metal

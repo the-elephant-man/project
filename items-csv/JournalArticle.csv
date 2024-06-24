@@ -1,14 +1,14 @@
 Subject;Predicate;Object
-item/Journal_Article;rdf:type;fabio:JournalArticle
-item/Journal_Article;dcterms:subject;"Proteus syndrome"
-item/Journal_Article;dcterms:subject;person/Joseph_Merrick
-item/Journal_Article;schema:identifier;10.1136/bmj.293.6548.683
-item/Journal_Article;schema:datePublished;1986/09/01
-item/Journal_Article;dcterms:title;"The Proteus syndrome: the Elephant Man diagnosed"
-item/Journal_Article;schema:genre;concept/genre/Biography
-item/Journal_Article;dcterms:creator;person/M_M_Cohen
-item/Journal_Article;dcterms:creator;person/J_A_Tibbles
-item/Journal_Article;dcterms:isPartOf;organization/British_medical_journal
-item/Journal_Article;fabio:hasPlaceOfPublication;place/England
-item/Journal_Article;dcterms:language;language/English
-item/Journal_Article;owl:sameAs;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1341524/
+item/Journal Article;rdf:type;fabio:JournalArticle
+item/Journal Article;dcterms:subject;"Proteus syndrome"
+item/Journal Article;dcterms:subject;person/Joseph Merrick
+item/Journal Article;schema:identifier;10.1136/bmj.293.6548.683
+item/Journal Article;schema:datePublished;1986/09/01
+item/Journal Article;dcterms:title;"The Proteus syndrome: the Elephant Man diagnosed"
+item/Journal Article;schema:genre;concept/genre/Biography
+item/Journal Article;dcterms:creator;person/M M Cohen
+item/Journal Article;dcterms:creator;person/J A Tibbles
+item/Journal Article;dcterms:isPartOf;organization/British medical journal
+item/Journal Article;fabio:hasPlaceOfPublication;place/England
+item/Journal Article;dcterms:language;language/English
+item/Journal Article;owl:sameAs;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1341524/
