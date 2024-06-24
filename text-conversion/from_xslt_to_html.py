@@ -3,7 +3,6 @@ import os
 
 print(os.getcwd())
 
-
 tei_file = etree.parse("xml_text.xml")
 xsli_file = etree.parse("xml_to_xslt.xslt")
 

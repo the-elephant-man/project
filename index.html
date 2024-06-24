@@ -292,6 +292,14 @@
 		<div class="container">
 			<h3>Study of the domain</h3>
 			<h2 class="section-title">Chosen items</h2>
+			<p>The life story of Joseph Merrick has been the subject of numerous works, including films, books, songs, and
+				scientific
+				studies. The objective of this project is to explore the different types of objects related to Merrick
+				through various
+				connections, such as personal belongings, creative works inspired by him, and scholarly articles. (These
+				items have been
+				curated from cultural institutions like the archives of the Royal London Hospital Museum).
+			</p>
 
 			<div class="row">
 				<!-- Screenplay -->
@@ -540,8 +548,16 @@
 		<div class="container">
 			<div class="sub-section">
 				<h2 class="section-title" id="conceptual-map">Conceptual Map</h2>
-				<p>In the conceptual map, we depicted the metadata of items housed within the reference institutions through
-					natural language.
+				<p>The initial phase of modeling involves illustrating the main concept using a conceptual map. This map
+					must depict in
+					natural language the real data obtained from the chosen items and clearly represent the explicit
+					relationship between
+					them.
+					Within the map, the elements in yellow represent the main concept and the 10 selected items while the
+					elements in gray
+					represent the metadata related to these items. Among these, the metadata shared between multiple items
+					are highlighted
+					with a yellow border.
 					Adhering to the
 					metadata standards of these institutions, we introduced additional relationships due to frequent
 					categorization of data under
@@ -557,11 +573,12 @@
 
 			<div class="sub-section">
 				<h2 class="section-title" id="er-model">E / R Model</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-					dolore magna
-					aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae aliquet
-					nec
-					ullamcorper sit. A cras semper auctor neque.</p>
+				<p>The Conceptual Map is now translated into a higher level of abstraction. With this Entity-Relationship
+					model we provide
+					a graphical representation of the entities that characterize the scenario such as people places, dates
+					and subjects and
+					the relationship among them, offering a clearer and more structured overview of the scenario.
+				</p>
 				<img class="map" src="maps/E_R model.png">
 				<div class="center">
 					<!-- Button trigger modal -->
@@ -583,11 +600,15 @@
 			<h3>Metadata</h3>
 			<div class="sub-section">
 				<h2 class="section-title">Metadata Analysis </h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-					dolore magna
-					aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae aliquet
-					nec
-					ullamcorper sit. A cras semper auctor neque.</p>
+				<p>We conducted a detailed analysis of the metadata provided by cultural institutions for the selected
+					items. Some
+					institutions explicitly stated the metadata standards they used, while others doesn’t specified
+					standards. For those, we
+					applied either a suitable generic metadata standard.
+					(In the course the ISAD(G) standard was employed. This decision was made in alignment with the Royal
+					London Hospital
+					Museum archive, which adheres to the ISAD(G) standard for its metadata practices.)
+				</p>
 				<table class="table table-striped">
 					<tr>
 						<th>Item Name</th>
@@ -689,11 +710,11 @@
 			<div class="sub-section">
 				<h3 id="metadata-alignment">Metadata</h3>
 				<h2 class="section-title">Metadata Alignment</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-					dolore magna
-					aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae aliquet
-					nec
-					ullamcorper sit. A cras semper auctor neque.</p>
+				<p>Another important step in our project was mapping metadata elements and properties to address information
+					related to
+					people, places, dates, and subjects/concepts. The main goal was to use shared semantic ontologies to
+					ensure consistent
+					data delivery. Where metadata alignment could not be found, we noted N/A in our documentation.</p>
 				<div class="center">
 					<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 						<li class="nav-item" role="presentation">
@@ -1052,12 +1073,12 @@
 				<h3>Knowledge Organization</h3>
 				<div class="sub-section">
 					<h2 class="section-title">Theoretical Model</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-						dolore magna
-						aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae
-						aliquet
-						nec
-						ullamcorper sit. A cras semper auctor neque.</p>
+					<p>In this step, the team refined the original Conceptual Map by adding data interpretation, still in
+						natural language, and
+						categorized into WHO (marked in pink), WHERE (marked in green), WHEN (marked in purple), and WHAT
+						(marked in blue). New
+						relationships and properties were defined with yellow arrows, enhancing the complexity of connections.
+					</p>
 					<img class=" map" src="maps/theoretical model.png">
 					<div class="center">
 						<!-- Button trigger modal -->
@@ -1069,12 +1090,12 @@
 				</div>
 				<div class="sub-section">
 					<h2 class="section-title">Enhanced E/R Model</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-						dolore magna
-						aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae
-						aliquet
-						nec
-						ullamcorper sit. A cras semper auctor neque.</p>
+					<p>At this stage, transitioning from natural language to an Entity/Relationships model one more, we
+						refine the original E/R
+						model and create a new graph based on the theoretical model to reach a deeper insights into entity
+						relationships and
+						attributes.
+					</p>
 					<img class="map" src="maps/er-enhanced.png">
 					<div class="center" id="conceptual-model">
 						<!-- Button trigger modal -->
@@ -1086,12 +1107,11 @@
 
 				<div class="sub-section">
 					<h2 class="section-title">Conceptual Model</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-						dolore magna
-						aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae
-						aliquet
-						nec
-						ullamcorper sit. A cras semper auctor neque.</p>
+					<p>Having taken these steps, we transition from the theoretical model to the formal representation, known
+						as the
+						ontological approach. This involves creating a conceptual model by incorporating existing schemas,
+						vocabularies, and
+						ontologies ensuring conformity with established conventions and terminologies.</p>
 
 					<img class="map" src="maps/conceptual-model.png">
 					<div class="center">
@@ -1112,12 +1132,11 @@
 				<h2>Knowledge Representation<span></span></h2>
 			</div>
 			<h2 class="section-title" id="items-description">Items description</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-				dolore magna
-				aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae
-				aliquet
-				nec
-				ullamcorper sit. A cras semper auctor neque.</p>
+			<p>In this section, we revisited the items to describe them using the properties defined in the Conceptual
+				Model. For each
+				item, we created a table with three columns corresponding to the elements of a triple: subject, predicate,
+				and object.
+				Each row represents a single statement.</p>
 
 			<div class="center">
 				<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -1763,6 +1782,15 @@
 	<div class="grey-section">
 		<div class="container">
 			<h2 class="section-title" id="text-conversions">Text Conversions</h2>
+			<h3>XML/TEI</h3>
+			<h3>XSLT for XML to HTML conversion</h3>
+			<h3>XML/TEI to RDf conversion</h3>
+			<p>Using Python's XML library, we extracted information from the nodes of the XML/TEI file and transformed it
+				into RDF
+				triples. Then, we serialized the graph in Turtle format, containing all the triples.</p>
+			<p><a href="https://raw.githubusercontent.com/the-elephant-man/project/main/rdf_production/turtle-serialization.ttl"
+					target="_blank">click
+					here</a>. the link to the python file.</p>
 
 		</div>
 	</div>
