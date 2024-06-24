@@ -34,7 +34,7 @@
 		<div class="modal-dialog modal-fullscreen">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h1 class="modal-title fs-5" id="exampleModalLabel">conceptual map</h1>
+					<h1 class="modal-title fs-5" id="exampleModalLabel">Conceptual Map</h1>
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body">
@@ -97,6 +97,20 @@
 				</div>
 				<div class="modal-body">
 					<img class='modal-img' src="maps/conceptual-model.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- RDF Graph -->
+	<div class="modal fade" id="rdf-graph" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-fullscreen">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="exampleModalLabel">RDF Graph Visualization</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<img class='modal-img' src="maps/rdf-graph.png">
 				</div>
 			</div>
 		</div>
@@ -526,11 +540,12 @@
 		<div class="container">
 			<div class="sub-section">
 				<h2 class="section-title" id="conceptual-map">Conceptual Map</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-					dolore magna
-					aliqua. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Mi ipsum faucibus vitae aliquet
-					nec
-					ullamcorper sit. A cras semper auctor neque.</p>
+				<p>In the conceptual map, we depicted the metadata of items housed within the reference institutions through
+					natural language.
+					Adhering to the
+					metadata standards of these institutions, we introduced additional relationships due to frequent
+					categorization of data under
+					overly general headings such as 'description'.</p>
 				<img class="map" src="maps/Conceptual-map.png">
 				<div class="center">
 					<!-- Button trigger modal -->
@@ -1722,10 +1737,26 @@
 					added them to an internal graph. At the end of the script, the graph is serialized into a Turtle file.
 				</p>
 				<script src="https://gist.github.com/qwindici/69be86996ca6bde60855a6f7763da3ac.js"></script>
+				<p>If you want to see the turtle serialization <a
+						href="https://raw.githubusercontent.com/the-elephant-man/project/main/rdf_production/turtle-serialization.ttl"
+						target="_blank">click
+						here</a>. </p>
 			</div>
 			<div class="sub-section">
 				<h2 class="section-title" id="rdf-visualization">RDF Visualization</h2>
+				<p>After obtaining the Turtle file, we placed its contents into <RDF
+						href="https://www.ldf.fi/service/rdf-grapher" target="_blank">RDF Grapher</a> to obtain the
+						visualization of
+						the RDF graph.</p>
+				<img class="map" src="maps/rdf-graph.png">
+				<div class="center">
+					<!-- Button trigger modal -->
+					<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#rdf-graph">
+						See the graph fullscreen
+					</button>
+				</div>
 			</div>
+
 		</div>
 	</div>
 

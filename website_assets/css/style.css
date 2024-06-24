@@ -372,7 +372,10 @@ hr:not([size]) {
   display: flex;
             justify-content: center; /* Center horizontally */
             align-items: center; /* Center vertically (optional) */
-            
+}
+
+.center .btn {
+  margin: 20px; 
 }
 
 
