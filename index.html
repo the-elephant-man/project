@@ -296,9 +296,8 @@
 			<h2 class="section-title">Chosen items</h2>
 			<p>The life story of Joseph Merrick has been the subject of numerous works, including films, books, songs, and
 				scientific
-				studies. The objective of this project is to explore the different types of objects related to Merrick
-				through various
-				connections, such as personal belongings, creative works inspired by him, and scholarly articles.
+				studies. The objective of this project is to explore the different types of objects related to Merrick, such
+				as personal belongings, creative works inspired by him, and scholarly articles.
 			</p>
 
 			<div class="row">
@@ -550,7 +549,7 @@
 				<h2 class="section-title" id="conceptual-map">Conceptual Map</h2>
 				<p>The initial phase of modeling involves illustrating the main concept using a conceptual map. This map
 					must depict in
-					natural language the real data obtained from the chosen items and clearly represent the explicit
+					natural language the real data obtained from the chosen items and represent the explicit
 					relationship between
 					them.
 					Within the map, the elements in yellow represent the main concept and the 10 selected items while the
@@ -575,7 +574,7 @@
 				<h2 class="section-title" id="er-model">E / R Model</h2>
 				<p>The Conceptual Map is now translated into a higher level of abstraction. With this Entity-Relationship
 					model we provide
-					a graphical representation of the entities that characterize the scenario such as people places, dates
+					a graphical representation of the entities that characterize the scenario such as people, places, dates
 					and subjects and
 					the relationship among them, offering a clearer and more structured overview of the scenario.
 				</p>
@@ -600,11 +599,11 @@
 			<h3>Metadata</h3>
 			<div class="sub-section">
 				<h2 class="section-title">Metadata Analysis </h2>
-				<p>We conducted a detailed analysis of the metadata provided by cultural institutions for the selected
+				<p>We conducted an analysis of the metadata provided by cultural institutions for the selected
 					items. Some
 					institutions explicitly stated the metadata standards they used, while others do not specified
 					standards. For those, we
-					applied either a suitable generic metadata standard.
+					applied a suitable generic metadata standard.
 
 				</p>
 				<table class="table table-striped">
@@ -708,11 +707,12 @@
 			<div class="sub-section">
 				<h3 id="metadata-alignment">Metadata</h3>
 				<h2 class="section-title">Metadata Alignment</h2>
-				<p>Another important step in our project was mapping metadata elements and properties to address information
+				<p>Another important step in our project was mapping and comparing metadata properties to
+					address information
 					related to
-					people, places, dates, and subjects/concepts. The main goal was to use shared semantic ontologies to
-					ensure consistent
-					data delivery. Where metadata alignment could not be found, we noted N/A in our documentation.</p>
+					people (who), places (where), dates (when), and subjects/concepts (what). Where metadata alignment could
+					not be found, we noted N/A
+					in our documentation.</p>
 				<div class="center">
 					<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 						<li class="nav-item" role="presentation">
@@ -1071,11 +1071,14 @@
 				<h3>Knowledge Organization</h3>
 				<div class="sub-section">
 					<h2 class="section-title">Theoretical Model</h2>
-					<p>In this step, the team refined the original Conceptual Map by adding data interpretation, still in
-						natural language, and
-						categorized into WHO (marked in pink), WHERE (marked in green), WHEN (marked in purple), and WHAT
-						(marked in blue). New
-						relationships and properties were defined with yellow arrows, enhancing the complexity of connections.
+					<p>In this step, the team refined the original Conceptual Map by integrating new data from various
+						sources and
+						establishing additional connections to the existing entities. This process was carried out in natural
+						language.
+						Additionally, we categorized the data into four groups: WHO (marked in pink), WHERE (marked in green),
+						WHEN (marked in
+						purple), and WHAT (marked in blue). New relationships and properties were represented with yellow
+						arrows.
 					</p>
 					<img class=" map" src="maps/theoretical model.png">
 					<div class="center">
@@ -1088,9 +1091,9 @@
 				</div>
 				<div class="sub-section">
 					<h2 class="section-title">Enhanced E/R Model</h2>
-					<p>At this stage, transitioning from natural language to an Entity/Relationships model one more, we
-						refine the original E/R
-						model and create a new graph based on the theoretical model to reach a deeper insights into entity
+					<p>At this stage, transitioning to an Entity/Relationships model once more, we
+						refined the original E/R
+						model and created a new graph based on the theoretical model to reach a deeper insights into entity
 						relationships and
 						attributes.
 					</p>
@@ -1105,11 +1108,31 @@
 
 				<div class="sub-section">
 					<h2 class="section-title">Conceptual Model</h2>
-					<p>Having taken these steps, we transition from the theoretical model to the formal representation, known
+					<p>Having taken these steps, we transitioned from the theoretical model to the formal representation,
+						known
 						as the
 						ontological approach. This involves creating a conceptual model by incorporating existing schemas,
 						vocabularies, and
 						ontologies ensuring conformity with established conventions and terminologies.</p>
+					<p>These are the ontologies that we chose:</p>
+					<ul>
+						<li>@prefix foaf: http://xmlns.com/foaf/0.1/</li>
+						<li>@prefix dcterms: http://purl.org/dc/terms/</li>
+						<li>@prefix schema: https://schema.org</li>
+						<li>@prefix mo: http://purl.org/ontology/mo/</li>
+						<li>@prefix dbo: http://dbpedia.org/ontology/</li>
+						<li>@prefix vir: http://w3id.org/vir</li>
+						<li>@prefix frbr: http://purl.org/vocab/frbr/core</li>
+						<li>@prefix swc: http://data.semanticweb.org/ns/swc/ontology</li>
+						<li>@prefix fabio: http://purl.org/spar/fabio</li>
+						<li>@prefix crm: http://www.cidoc-crm.org/cidoc-crm/</li>
+						<li>@prefix gndo: http://d-nb.info/standards/elementset/gnd</li>
+						<li>@prefix mads: http://www.loc.gov/mads/rdf/v1#</li>
+						<li>@prefix gvp: http://vocab.getty.edu/ontology</li>
+						<li>@prefix frapo: http://purl.org/cerif/frapo</li>
+						<li>@prefix cwrc: https://sparql.cwrc.ca/ontologies/cwrc.html#</li>
+					</ul>
+
 
 					<img class="map" src="maps/conceptual-model.png">
 					<div class="center">
@@ -1622,9 +1645,9 @@
 				<div class="tab-pane fade" id="picture" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
 					<table class="table table-striped">
 						<tr>
-							<td>Subject</td>
-							<td>Predicate</td>
-							<td>Object</td>
+							<th>Subject</th>
+							<th>Predicate</th>
+							<th>Object</th>
 						</tr>
 						<tr>
 							<td> Portrait</td>
@@ -1685,11 +1708,7 @@
 							<td>schema:containedInPlace</td>
 							<td> London</td>
 						</tr>
-						<tr>
-							<td> Hospital</td>
-							<td>skos:broader</td>
-							<td> National Health Service</td>
-						</tr>
+
 					</table>
 				</div>
 
@@ -1860,9 +1879,9 @@
 			<h2 class="section-title" id="text-conversions">Text Conversions</h2>
 			<p>In this phase, our team utilized various tools to thoroughly analyze the digital book edition of “The
 				Elephant Man and
-				Other Reminiscences” by Frederick Treves. By employing XML/TEI encoding, XSLT conversion, RDF/XML
+				Other Reminiscences” by Frederick Treves. We employed XML/TEI encoding, XSLT conversion, RDF/XML
 				representation, and
-				Python scripting, we aimed to uncover the intricate layers of meaning embedded in Treves' work.
+				Python scripting.
 			</p>
 			<h3>XML/TEI</h3>
 			<p>TEI (Text Encoding Initiative) is a standard for encoding texts, primarily in the humanities, to ensure
@@ -1894,7 +1913,7 @@
 			<p>Python scripts for TEI conversion can be found <a
 					href="https://raw.githubusercontent.com/the-elephant-man/project/main/text-conversion/from_xslt_to_html.py"
 					target="_blank">here.</a></p>
-			<p>You can view the resulting HTML document from the conversion <a href="/text-conversion/Elephant.html"
+			<p>You can view the resulting HTML document from the conversion <a href="./text-conversion/Elephant.html"
 					target="_blank"></href>here.</a></p>
 			</p>
 			<h3>XML/TEI to RDf conversion</h3>
@@ -1917,6 +1936,7 @@
 
 
 			<div class="row g-5 mb-5">
+				<h3>The team</h3>
 
 				<div class="col">
 					<div class="us-container">
