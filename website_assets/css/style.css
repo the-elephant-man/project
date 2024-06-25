@@ -188,7 +188,7 @@ h2 span {
       .hero h1 {
         font-size: 54px; } }
   .hero p {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.817);
     margin-bottom: 30px; }
   .hero .hero-img-wrap {
     position: relative; }
@@ -574,6 +574,13 @@ td {
     height: 100%;
     object-fit: cover;
   }
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .untree_co-section {
   padding: 7rem 0; }
